@@ -4,14 +4,14 @@ import React, { CSSProperties } from 'react';
 const { Meta } = Card;
 
 interface CardProps {
-  style: CSSProperties;
+  style?: CSSProperties;
   cover: React.ReactNode;
   title: string;
   description: string;
 }
 
 export const TTCard = ({ style, cover, title, description }: CardProps) => (
-  <Card hoverable style={style} cover={cover}>
+  <Card bordered={false} style={style} cover={cover}>
     <Meta title={title} description={description} />
   </Card>
 );

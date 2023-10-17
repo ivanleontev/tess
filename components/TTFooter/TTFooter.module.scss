@@ -1,8 +1,12 @@
 .TTFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 336px;
   background: #232247;
   color: #fff;
 }
 .color_white {
+  // margin-bottom: 16px !important;
   color: #fff !important;
 }

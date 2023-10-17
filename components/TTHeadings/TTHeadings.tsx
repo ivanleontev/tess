@@ -4,13 +4,14 @@ import style from './TTHeadings.module.scss';
 interface Heading {
   label: string;
   icon?: React.ReactSVGElement;
+  size?: number;
 }
 const { Title, Text } = Typography;
 
-export const Heading1 = ({ label, icon, ...props }: Heading) => {
+export const Heading1 = ({ label, icon, size, ...props }: Heading) => {
   return (
     <>
-      <Title className={style.TTHeading1} {...props}>
+      <Title className={style.TTHeading1} style={{fontSize: `${size}px`}} {...props}>
         {label}
       </Title>
       {icon && icon}

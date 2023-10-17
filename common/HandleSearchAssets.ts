@@ -2,40 +2,61 @@ export const HandleSearchAssets = (route: string) => {
   const routes = [
     {
       path: `/`,
-      logoUrl: '',
-      illistrationUrl: './assets/illustration/MainIllustration.svg',
+      name: 'Главная',
+      logoUrl: '/assets/logo/LogoMain.svg',
+      illistrationUrl: '/assets/illustration/MainIllustration.svg',
+    },
+    {
+      path: `/articles`,
+      name: 'Статьи',
+      logoUrl: '/assets/logo/LogoMain.svg',
+      illistrationUrl: '/assets/illustration/MainIllustration.svg',
+    },
+    {
+      path: `/doneproject`,
+      name: 'Реализованные проекты',
+      logoUrl: '/assets/logo/LogoMain.svg',
+      illistrationUrl: '/assets/illustration/MainIllustration.svg',
     },
     {
       path: `/research`,
-      logoUrl: '',
-      illistrationUrl: './assets/illustration/ResearchIllustration.svg',
+      name: 'Инженерные изыскания',
+      logoUrl: '/assets/logo/LogoResearch.svg',
+      illistrationUrl: '/assets/illustration/ResearchIllustration.svg',
     },
     {
-      path: `/consruction`,
-      logoUrl: '',
-      illistrationUrl: './assets/illustration/ConsrtuctionIllustration.svg',
+      path: `/construction`,
+      name: 'Конструктив и архитектура',
+      logoUrl: '/assets/logo/LogoConstruction.svg',
+      illistrationUrl: '/assets/illustration/ConsrtuctionIllustration.svg',
     },
     {
       path: `/water`,
-      logoUrl: '',
-      illistrationUrl: './assets/illustration/WaterIllustration.svg',
+      name: 'Водоснабжение и канализация',
+      logoUrl: '/assets/logo/LogoWater.svg',
+      illistrationUrl: '/assets/illustration/WaterIllustration.svg',
     },
     {
       path: `/heating`,
-      logoUrl: '',
-      illistrationUrl: './assets/illustration/HeatingIllustration.svg',
+      name: 'Отопление, вентиляция и кондиционирование',
+      logoUrl: '/assets/logo/LogoHeating.svg',
+      illistrationUrl: '/assets/illustration/HeatingIllustration.svg',
     },
     {
       path: `/light`,
-      logoUrl: '',
-      illistrationUrl: './assets/illustration/LightIllustration.svg',
+      name: 'Электроснабжение и автоматика',
+      logoUrl: '/assets/logo/LogoLight.svg',
+      illistrationUrl: '/assets/illustration/LightIllustration.svg',
     },
     {
-      path: `/authorControl`,
-      logoUrl: '',
-      illistrationUrl: './assets/illustration/ContrtolIllustration.svg',
+      path: `/authorcontrol`,
+      name: 'Авторский надзор',
+      logoUrl: '/assets/logo/LogoAuthorControl.svg',
+      illistrationUrl: '/assets/illustration/ContrtolIllustration.svg',
     },
   ];
 
-  return routes.find((r) => r.path === route);
+  const search = routes.find((r) => r.path === route);
+
+  return search ? search : routes[0];
 };

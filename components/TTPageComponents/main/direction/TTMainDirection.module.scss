@@ -1,6 +1,12 @@
 .direction_card {
   display: flex;
   align-items: start;
+  padding: 12px 8px 8px;
+  transition: 0.2s; // refactored pls
+  &:hover {
+    outline: 1px solid red;
+    border-radius: 2px;
+  }
 }
 
 .direction_title {

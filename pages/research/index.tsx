@@ -5,7 +5,7 @@ import { TTDirectionsInfo } from '@/components/TTDirectionsInfo/TTDirectionsInfo
 import { HelperReserch } from 'common/DirectionStaticHelpers';
 import { TTTabs } from '@/components/TTTabs/TTTabs';
 import { TTCollapse } from '@/components/TTCollapse/TTCollapse';
-import { ReleaseProject } from '@/components/ReleaseProject/ReleaseProject';
+import { ReleaseProject } from '@/components/TTReleaseProject/TTReleaseProject';
 
 const Research = () => {
   const router = useRouter();
@@ -14,30 +14,30 @@ const Research = () => {
 
   const search = HandleSearchAssets(router.pathname);
 
-  const tabItem = HelperReserch.tabsName.map((item) => {
-    return {
-      label: item,
-      key: item,
-      children: (
-        <>
-          {HelperReserch.tabsArticle.tabsArticleTitle}
-          {HelperReserch.tabsArticle.tabsArticleDescription}
-          <TTCollapse
-            data={[
-              {
-                title: '123',
-                text: '123',
-              },
-              {
-                title: '321',
-                text: '321',
-              },
-            ]}
-          />
-        </>
-      ),
-    };
-  });
+  // const tabItem = HelperReserch.tabsName.map((item) => {
+  //   return {
+  //     label: item,
+  //     key: item,
+  //     children: (
+  //       <>
+  //         {HelperReserch.tabsArticle.tabsArticleTitle}
+  //         {HelperReserch.tabsArticle.tabsArticleDescription}
+  //         <TTCollapse
+  //           data={[
+  //             {
+  //               title: '123',
+  //               text: '123',
+  //             },
+  //             {
+  //               title: '321',
+  //               text: '321',
+  //             },
+  //           ]}
+  //         />
+  //       </>
+  //     ),
+  //   };
+  // });
 
   return (
     <div>
@@ -60,7 +60,7 @@ const Research = () => {
           },
         ]}
       />
-      <TTTabs items={tabItem} />
+      {/* <TTTabs items={tabItem} /> */}
       <ReleaseProject />
     </div>
   );

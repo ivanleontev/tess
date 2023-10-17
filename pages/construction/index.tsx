@@ -7,7 +7,7 @@ import { Row, Col, Space } from 'antd';
 import { DirectionStaticHelpersWater } from 'common/DirectionStaticHelpers/DirectionStaticHelpersWater';
 import React from 'react';
 
-const heating = () => {
+const consruction = () => {
   return (
     <>
       <TTMainBaner />
@@ -57,4 +57,5 @@ const heating = () => {
     </>
   )
 };
-export default heating;
+
+export default consruction;

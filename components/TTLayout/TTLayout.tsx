@@ -6,10 +6,11 @@ import TTFooter from '@/components/TTFooter/TTFooter';
 const { Content } = Layout;
 
 export default function TTLayout({ children }: { children: ReactNode }) {
+
   return (
     <>
       <TTHeader />
-      <Content style={{ padding: '0px 64px' }}>{children}</Content>
+      <Content>{children}</Content>
       <TTFooter />
     </>
   );

@@ -1,5 +1,5 @@
 import { BackTop } from 'antd';
-import { ArrToTop } from '../Icons/Icons';
+import { ArrToTop } from '../Icons';
 
 export const TTBackTop = () => {
   return (

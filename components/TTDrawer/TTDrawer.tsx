@@ -12,7 +12,7 @@ interface TTDrawerProps {
 
 export const TTDrawer = ({ title, children, visible, onClose }: TTDrawerProps) => {
   return (
-    <Drawer className={style.TTDrawer} placement="top" open={visible} width={100}>
+      <Drawer className={style.TTDrawer} placement="top" open={true} width={100}>
       {/* {children} */}
     </Drawer>
   );

@@ -1,0 +1,13 @@
+.TTMainBanerWrapper {
+  display: flex;
+  justify-content: space-between;
+  background: #232247;
+  margin-bottom: 66px;
+  padding: 0px 146px;
+}
+.TTMainBanerWrapper__leftBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 290px;
+}

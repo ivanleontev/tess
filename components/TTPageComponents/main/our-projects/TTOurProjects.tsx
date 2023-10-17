@@ -2,7 +2,7 @@ import { TTButton } from '@/components/TTButton/TTButton';
 import { Heading1, TextHeading } from '@/components/TTHeadings/TTHeadings';
 import { Col, Row, Space, Typography } from 'antd';
 import { OurProjects } from 'common/MainPage/OurProjects';
-import React from 'react';
+import Image from 'next/image';
 
 import style from './TTOurProjects.module.scss';
 
@@ -29,7 +29,16 @@ export const TTOurProjects = () => {
                   <TTButton text="Получить консультацию" />
                 </Space>
               </Col>
-              <Col span={10}>image</Col>
+              <Col span={10}>
+                <Image
+                  src={item.imageUrl}
+                  alt="Picture of the author"
+                  // TODO: fix image size
+                  width={700}
+                  height={600}
+                  objectFit="contain"
+                />
+              </Col>
               <Col span={2} />
             </Row>
           );
@@ -37,7 +46,16 @@ export const TTOurProjects = () => {
         return (
           <Row key={key + item.tag}>
             <Col span={2} />
-            <Col span={10}>image</Col>
+            <Col span={10} style={{ display: 'flex', justifyContent: 'flex-end', marginRight: 14 }}>
+              <Image
+                src={item.imageUrl}
+                alt="Picture of the author"
+                // TODO: fix image size
+                width={700}
+                height={600}
+                objectFit="contain"
+              />
+            </Col>
             <Col span={10}>
               <Space direction="vertical">
                 <TextHeading label={item.tag} />

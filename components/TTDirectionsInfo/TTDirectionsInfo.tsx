@@ -1,23 +1,34 @@
 import { Row, Col } from 'antd';
 import React from 'react';
 
-interface TTDirectionsInfo {
+import style from './styles.module.scss'
+
+type dataType = {
   title: string;
   description: string;
+}
+interface TTDirectionsInfo {
+  data: {
+    title: string;
+    description: string;
+  }
 }
 
 export const TTDirectionsInfo = ({ data }: TTDirectionsInfo[]) => {
   return (
-    <Row>
-      {data.map((item) => {
-        const { title, description } = item;
-        return (
-          <Col key={title} xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-            <h3>{title}</h3>
-            <p>{description}</p>
-          </Col>
-        );
-      })}
+    <Row className={`${style.wrapper}`}>
+      <Col>
+        {data.map((item: dataType) => {
+          const { title, description } = item;
+          return (
+            // TODO MEDIA
+            <Col key={title}>
+              <h3 className={`${style.title}`}>{title}</h3>
+              <p className={`${style.description}`}>{description}</p>
+            </Col>
+          );
+        })}
+      </Col>
     </Row>
   );
 };

@@ -1,9 +1,11 @@
 import { Tabs } from 'antd';
 
+import style from './styles.module.scss'
+
 type itemsType = {
   label: string;
   key: string;
-  children: string;
+  children: React.ReactNode | string;
 };
 
 interface TTTabsProps {
@@ -13,5 +15,5 @@ interface TTTabsProps {
 }
 
 export const TTTabs = ({ defaultActiveKey, items, onChange }: TTTabsProps) => {
-  return <Tabs defaultActiveKey={defaultActiveKey} onChange={onChange} items={items} />;
+  return <Tabs className={`${style.customTab}`} defaultActiveKey={defaultActiveKey} onChange={onChange} items={items} />;
 };
