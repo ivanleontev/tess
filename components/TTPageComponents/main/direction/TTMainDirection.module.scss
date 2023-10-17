@@ -1,0 +1,23 @@
+.direction_card {
+  display: flex;
+  align-items: start;
+}
+
+.direction_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #4743a4;
+}
+
+.direction_text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #3b3b70;
+}
