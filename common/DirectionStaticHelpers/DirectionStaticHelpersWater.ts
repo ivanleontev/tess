@@ -2,7 +2,7 @@ export const DirectionStaticHelpersWater = {
   pageNameRu: 'Инженерные изыскания',
   pageNameEn: 'Research',
   titleBaner: {
-    titleH1: 'полевые работы',
+    titleH1: 'Полевые работы',
     titleH2: 'Инженерные изыскания',
     titleH3: 'Подготовим расчет стоимости по ТЗ в течение 1 рабочего дня',
   },

@@ -2,3 +2,41 @@
     margin-top: 112px;
     padding: 0 64px;
 }
+
+.mainTitle {
+    color: var(--brand-line-dark, #272E49);
+    /* Header_2_32 M/ F1 */
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 113%; /* 36.16px */
+}
+
+.subTitle {
+    color: var(--accedent-color-purple-dark, #4743A4);
+    /* Caption_1_14 / F1 */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 18.2px */
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.wrapperCard {
+    margin: 30px 0;
+}
+
+.doneProject {
+    margin-bottom: 64px;
+    color: var(--grey-dark, #65657E) !important;
+    /* Text_2_16 R / F1 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 21.6px */
+    letter-spacing: -0.16px;
+}
