@@ -51,9 +51,7 @@ const consruction = () => {
           })} />
         </Col>
       </Row>
-      <Row>
-        <ReleaseProject />
-      </Row>
+      <ReleaseProject />
     </>
   )
 };

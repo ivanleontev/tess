@@ -51,9 +51,7 @@ const authorcontrol = () => {
           })} />
         </Col>
       </Row>
-      <Row>
-        <ReleaseProject />
-      </Row>
+      <ReleaseProject />
     </div>
   );
 };

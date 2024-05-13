@@ -11,8 +11,6 @@ export const TTMainBaner = () => {
   const router = useRouter();
   const search = HandleSearchAssets(router.pathname);
 
-
-
   const routes = [
     {
       path: "",
@@ -23,7 +21,7 @@ export const TTMainBaner = () => {
       breadcrumbName: 'Транзитные города',
     },
   ]
-  
+
 
   return (
     <Row className={`${style.TTMainBanerWrapper}`}>

@@ -51,9 +51,7 @@ const heating = () => {
           })} />
         </Col>
       </Row>
-      <Row>
-        <ReleaseProject />
-      </Row>
+      <ReleaseProject />
     </>
   )
 };

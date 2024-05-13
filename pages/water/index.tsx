@@ -50,9 +50,7 @@ const water = () => {
           })} />
         </Col>
       </Row>
-      <Row>
-        <ReleaseProject />
-      </Row>
+      <ReleaseProject />
     </>
   );
 };

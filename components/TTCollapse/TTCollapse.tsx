@@ -2,12 +2,14 @@ import { Collapse } from 'antd';
 import { DownCollapseArrow, UpCollapseArrow } from '../Icons';
 
 import style from './styles.module.scss'
+import Link from 'next/link';
 
 const { Panel } = Collapse;
 
 type PanelType = {
   title: string;
   text: string;
+  link?: string | undefined | null;
 };
 
 interface TTCollapseProps {
@@ -17,9 +19,9 @@ interface TTCollapseProps {
 
 export const TTCollapse = ({ defaultActiveKey, data }: TTCollapseProps) => {
   return (
-    <Collapse 
+    <Collapse
       style={{marginLeft: 40}}
-      defaultActiveKey={defaultActiveKey}   
+      defaultActiveKey={defaultActiveKey}
       expandIcon={({ isActive }) => isActive ? <DownCollapseArrow /> : <UpCollapseArrow />}
       expandIconPosition="right"
       ghost
@@ -27,7 +29,10 @@ export const TTCollapse = ({ defaultActiveKey, data }: TTCollapseProps) => {
       {data.map((item, index) => {
         return (
           <Panel className={`${style.panelHeader}`} header={item.title.toUpperCase()} key={index}>
-            <p className={`${style.panelText}`}>{item.text}</p>
+            <p className={`${style.panelText}`}>
+              {item.text}
+              {item.link && <Link href={item.link}> Узнать больше </Link>}
+            </p>
           </Panel>
         );
       })}
