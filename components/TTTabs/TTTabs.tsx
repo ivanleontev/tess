@@ -1,6 +1,7 @@
 import { Tabs } from 'antd';
 
 import style from './styles.module.scss';
+import { CSSProperties } from 'react';
 
 type itemsType = {
   label: string;
@@ -10,12 +11,18 @@ type itemsType = {
 
 interface TTTabsProps {
   defaultActiveKey?: string;
-  items: any; //TODO: типизировать
+  items: any; // TODO: типизировать
   onChange?: (key: string) => void;
+  style: CSSProperties;
 }
 
-export const TTTabs = ({ defaultActiveKey, items, onChange }: TTTabsProps) => {
+export const TTTabs = ({ defaultActiveKey, items, onChange, ...props }: TTTabsProps) => {
   return (
-    <Tabs className={`${style.customTab}`} defaultActiveKey={defaultActiveKey} onChange={onChange} items={items} />
+    <Tabs
+      className={`${style.customTab}`}
+      defaultActiveKey={defaultActiveKey}
+      onChange={onChange}
+      items={items}
+    />
   );
 };

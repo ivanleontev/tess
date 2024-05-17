@@ -29,8 +29,8 @@ export const TTMainMenu = ({ open, onClose }: TTMainMenuProps) => {
       }}
       closeIcon={
         <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M19.5366 6.15039L6.83984 18.1504" stroke="white" stroke-width="2" stroke-linejoin="round" />
-          <path d="M6.83984 6.15039L19.5366 18.1504" stroke="white" stroke-width="2" stroke-linejoin="round" />
+          <path d="M19.5366 6.15039L6.83984 18.1504" stroke="white" strokeWidth="2" strokeLinejoin="round" />
+          <path d="M6.83984 6.15039L19.5366 18.1504" stroke="white" strokeWidth="2" strokeLinejoin="round" />
         </svg>
       }
     >

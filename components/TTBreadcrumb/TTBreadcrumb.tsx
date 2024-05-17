@@ -24,8 +24,8 @@ export const TTBreadcrumb = (props: BredcurmbProps) => {
           <path
             d="M1.33301 1.66797L4.66634 5.0013L1.33301 8.33464"
             stroke="#65657E"
-            stroke-width="2"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinejoin="round"
           />
         </svg>
       }

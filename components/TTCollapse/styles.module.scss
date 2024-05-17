@@ -1,6 +1,5 @@
 .panelHeader {
-  max-width: 650px;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 14px;
   line-height: 130%;
   letter-spacing: 0.03em;
@@ -39,4 +38,13 @@
   font-size: 18px;
   max-width: 640px;
   font-weight: normal;
+}
+
+.itemList{
+  padding-left: 15px;
+}
+
+.itemLi{
+  list-style-image: url("/assets/bullit.svg");
+  margin-bottom: 8px;
 }
