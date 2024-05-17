@@ -6,11 +6,30 @@
   justify-content: center;
 }
 
+.genproektirovanieLeftContentTitle {
+  color: #393959;
+  font-size: 24px;
+  font-weight: 600;
+}
+
 .genproektirovanieLeftContentText {
-  font-size: 14;
+  font-size: 16px;
+  color: #232247;
+  margin-bottom: 12px;
 }
 
 .genproektirovanieLeftContentItem {
   display: flex;
   align-items: flex-start;
 }
+.TitleStep {
+  color: #5651d0;
+  font-size: 12px;
+  font-weight: 600;
+}
+.descriptionStep {
+  color: #232247;
+  font-size: 14px;
+}
+
+// list-style-image: url('../../media/examples/rocket.svg');
