@@ -1,20 +1,21 @@
 import { Row, Col } from 'antd';
 import React from 'react';
 
-import style from './styles.module.scss'
+import style from './styles.module.scss';
 
 type dataType = {
   title: string;
   description: string;
-}
+};
 interface TTDirectionsInfo {
   data: {
     title: string;
     description: string;
-  }
+  };
 }
 
-export const TTDirectionsInfo = ({ data }: TTDirectionsInfo[]) => {
+// TODO: типизировать
+export const TTDirectionsInfo = ({ data }: any) => {
   return (
     <Row className={`${style.wrapper}`}>
       <Col>
