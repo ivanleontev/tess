@@ -12,7 +12,7 @@ import type { NextPage } from 'next';
 
 import Image from 'next/image';
 
-import style from './styles.module.scss'
+import style from './styles.module.scss';
 
 const Home: NextPage = (context) => {
   const direction = Directions();
@@ -22,16 +22,16 @@ const Home: NextPage = (context) => {
       <Row className={`${style.baner}`}>
         <Col span={2} />
         {/* <Space direction="vertical" align="center"> */}
-          <Col span={10}>
-            <Heading1 label={'Полный цикл работ по проектированию'} />
-            <Heading2
-              label={
-                'Генеральное проектирование включает инженерные изыскания, конструктивное проектирование, проектирование инженерных коммуникаций и авторский надзор Скачать презентацию о компании '
-              }
-            />
-            <Heading2 icon={<TTDowload />} label={'Скачать презентацию о компании '} />
-            <TTButton text={'Получить консультацию'} />
-          </Col>
+        <Col span={10}>
+          <Heading1 label={'Полный цикл работ по проектированию'} />
+          <Heading2
+            label={
+              'Генеральное проектирование включает инженерные изыскания, конструктивное проектирование, проектирование инженерных коммуникаций и авторский надзор Скачать презентацию о компании '
+            }
+          />
+          <Heading2 icon={<TTDowload />} label={'Скачать презентацию о компании '} />
+          <TTButton text={'Получить консультацию'} />
+        </Col>
         {/* </Space> */}
         <Col span={12}>
           <Image
@@ -48,14 +48,7 @@ const Home: NextPage = (context) => {
           return (
             <Col key={key} span={8}>
               {item.map((item) => {
-                return (
-                  <TTMainDirection
-                    key={item.text}
-                    icon={item.icon}
-                    title={item.title}
-                    text={item.text}
-                  />
-                );
+                return <TTMainDirection key={item.text} icon={item.icon} title={item.title} text={item.text} />;
               })}
             </Col>
           );
