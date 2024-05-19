@@ -32,12 +32,20 @@
   font-size: 14px;
 }
 
-.HeadingCustomPanel{
+.HeadingCustomPanel {
   font-size: 24px;
   color: #393959;
+  margin-right: 95px;
 }
 
-.HeadingCustomPanelItem{
+.HeadingCustomPanelItem {
   font-size: 16px;
-  color: #272E49;
+  color: #272e49;
+  font-weight: normal;
+}
+.TextCustom {
+  font-weight: normal;
+  color: #232247;
+  font-size: 18px;
+  max-width: 640px;
 }

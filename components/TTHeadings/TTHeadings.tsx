@@ -11,7 +11,7 @@ const { Title, Text } = Typography;
 export const Heading1 = ({ label, icon, size, ...props }: Heading) => {
   return (
     <>
-      <Title className={style.TTHeading1} style={{fontSize: `${size}px`}} {...props}>
+      <Title className={style.TTHeading1} style={{ fontSize: `${size}px` }} {...props}>
         {label}
       </Title>
       {icon && icon}
