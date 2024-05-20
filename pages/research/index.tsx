@@ -6,6 +6,7 @@ import { ReleaseProject } from '@/components/TTReleaseProject/TTReleaseProject';
 import { TTMainBaner } from '@/components/TTMainBaner/TTMainBaner';
 import { Row, Col, Space } from 'antd';
 import { DirectionStaticHelpersWater } from 'common/DirectionStaticHelpers/DirectionStaticHelpersWater';
+import { TTButton } from '@/components/TTButton/TTButton';
 
 const Research = () => {
   return (
@@ -70,6 +71,14 @@ const Research = () => {
           </Col>
         </Row>
         <ReleaseProject />
+        <Row>
+          <Col span={24} style={{display: 'flex', justifyContent: 'center', marginBottom: 76}}>
+            <Space size={16}>
+              <TTButton isColorBorder='orangeFullWhite' text={'Отправить тз'} />
+              <TTButton isColorBorder='orangeBorderWhite' text={'Скачать перезентацию'} />
+            </Space>
+          </Col>
+        </Row>
       </div>
     </>
   );

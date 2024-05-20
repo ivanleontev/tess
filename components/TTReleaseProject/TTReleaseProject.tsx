@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Image, Row, Space, Typography } from 'antd';
+import { Col, Empty, Image, Row, Space, Typography } from 'antd';
 import { useRouter } from 'next/router';
 import { HandleSearchAssets } from 'common/HandleSearchAssets';
 import { TTCard } from '../TTCard/TTCard';
@@ -25,6 +25,8 @@ export const ReleaseProject = () => {
   }, []);
 
   const search = HandleSearchAssets(router.pathname);
+
+  return null;
 
   return (
     // <Link href={''}>

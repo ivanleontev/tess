@@ -1,3 +1,4 @@
+import { TTButton } from '@/components/TTButton/TTButton';
 import { TTCollapse } from '@/components/TTCollapse/TTCollapse';
 import { TTDirectionsInfo } from '@/components/TTDirectionsInfo/TTDirectionsInfo';
 import { TTMainBaner } from '@/components/TTMainBaner/TTMainBaner';
@@ -53,7 +54,7 @@ const authorcontrol = () => {
           <Col span={24}>
             <TTTabs
               defaultActiveKey="1"
-              items={DirectionStaticHelpersWater.tabsName.map((item, index) => {
+              items={DirectionStaticHelpersWater.tabsName.map((item: any, index) => {
                 return {
                   ...item,
                   children: (
@@ -70,6 +71,14 @@ const authorcontrol = () => {
           </Col>
         </Row>
         <ReleaseProject />
+        <Row>
+          <Col span={24} style={{display: 'flex', justifyContent: 'center', marginBottom: 76}}>
+            <Space size={16}>
+              <TTButton isColorBorder='orangeFullWhite' text={'Отправить тз'} />
+              <TTButton isColorBorder='orangeBorderWhite' text={'Скачать перезентацию'} />
+            </Space>
+          </Col>
+        </Row>
       </div>
     </>
   );

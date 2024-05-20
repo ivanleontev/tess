@@ -1,3 +1,4 @@
+import { TTButton } from '@/components/TTButton/TTButton';
 import { TTCollapse } from '@/components/TTCollapse/TTCollapse';
 import { TTDirectionsInfo } from '@/components/TTDirectionsInfo/TTDirectionsInfo';
 import { TTMainBaner } from '@/components/TTMainBaner/TTMainBaner';
@@ -69,6 +70,14 @@ const water = () => {
           </Col>
         </Row>
         <ReleaseProject />
+        <Row>
+          <Col span={24} style={{display: 'flex', justifyContent: 'center', marginBottom: 76}}>
+            <Space>
+              <TTButton isColorBorder='orangeFullWhite' text={'Отправить тз'} />
+              <TTButton isColorBorder='orangeBorderWhite' text={'Скачать перезентацию'} />
+            </Space>
+          </Col>
+        </Row>
       </div>
     </>
   );

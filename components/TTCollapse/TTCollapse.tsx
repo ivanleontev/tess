@@ -22,6 +22,8 @@ interface TTCollapseProps {
   data: PanelType[];
   isList?: boolean;
   styleCustom?: CSSProperties;
+  title?: string;
+  desc?: string;
 }
 
 export const TTCollapse = ({

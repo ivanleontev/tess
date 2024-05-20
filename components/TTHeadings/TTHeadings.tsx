@@ -3,7 +3,7 @@ import style from './TTHeadings.module.scss';
 
 interface Heading {
   label: string;
-  icon?: React.ReactSVGElement;
+  icon?: React.ReactNode;
   size?: number;
 }
 const { Title, Text } = Typography;

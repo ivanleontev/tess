@@ -13,7 +13,7 @@ interface TTTabsProps {
   defaultActiveKey?: string;
   items: any; // TODO: типизировать
   onChange?: (key: string) => void;
-  style: CSSProperties;
+  style?: CSSProperties;
 }
 
 export const TTTabs = ({ defaultActiveKey, items, onChange, ...props }: TTTabsProps) => {
@@ -23,6 +23,7 @@ export const TTTabs = ({ defaultActiveKey, items, onChange, ...props }: TTTabsPr
       defaultActiveKey={defaultActiveKey}
       onChange={onChange}
       items={items}
+      {...props}
     />
   );
 };

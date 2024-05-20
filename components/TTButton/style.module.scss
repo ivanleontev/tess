@@ -1,70 +1,159 @@
 .TTButtonBlueFull {
-  width: 219px;
-  height: 48px;
-  padding: 0px 16px;
-  background: linear-gradient(270deg, #1fa2ff 4.92%, #12d8fa 52.46%, #a6ffcb 100%);
-  // border: linear-gradient(270deg, #1fa2ff 4.92%, #12d8fa 52.46%, #a6ffcb 100%);
-  border-radius: 2px;
+  padding: 16px;
+  cursor: pointer;
+  background:
+    linear-gradient(270deg, #1fa2ff 0%, #12d8fa 50%, #a6ffcb 100%) padding-box center,
+    linear-gradient(#fff, #fff) border-box;
+  background-size: 100% 100%,auto;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
   color: #232247;
-  border: 0px;
-}
+  font-size: 12px;
+  transform: 0;
+  line-height: 130%;
 
-.TTButtonBlueFull:hover {
-  background-color: transparent;
-  color: #fff;
-  border: 1px solid linear-gradient(270deg, #1fa2ff 4.92%, #12d8fa 52.46%, #a6ffcb 100%);
+  &:hover{
+ 	background:
+      linear-gradient(#fff, #fff) padding-box center,
+      linear-gradient(270deg, #1fa2ff 4.92%, #12d8fa 52.46%, #a6ffcb 100%) border-box;
+  	background-size: 100% 100%,auto;
+    border: 1px solid transparent;
+    color: #232247;
+  }
 }
-
-//
 
 .TTButtonBlueBorder {
-  width: 219px;
-  height: 48px;
-  padding: 0px 16px;
-  background: linear-gradient(270deg, #1fa2ff 4.92%, #12d8fa 52.46%, #a6ffcb 100%);
-  border: linear-gradient(270deg, #1fa2ff 4.92%, #12d8fa 52.46%, #a6ffcb 100%);
-  border-radius: 2px;
-  color: #232247;
-}
-
-.TTButtonBlueBorder:hover {
-  background-color: transparent;
+  padding: 16px;
+  cursor: pointer;
+  background:
+    linear-gradient(#232247, #232247) padding-box center,
+    linear-gradient(270deg, #1fa2ff 4.92%, #12d8fa 52.46%, #a6ffcb 100%) border-box;
+  background-size: 100% 100%,auto;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+  color: #000;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
   color: #fff;
-  border: linear-gradient(270deg, #1fa2ff 4.92%, #12d8fa 52.46%, #a6ffcb 100%);
+  font-size: 12px;
+  transform: 0;
+  line-height: 130%;
+
+  &:hover{
+    background: linear-gradient(#232247, #232247) padding-box center,
+    linear-gradient(to right, #a6ffcb 0%, #1fa2ff 100%) border-box;;
+    background-size: 0 0, auto;
+    color: #232247;
+  }
 }
-
-//
-
-.TTButtonOrangeBorder {
-  width: 219px;
-  height: 48px;
-  padding: 0px 16px;
-  background: linear-gradient(to right, #fdcf58 0%, #ff0000 100%);
-  border: linear-gradient(to right, #fdcf58 0%, #ff0000 100%);
-  border-radius: 2px;
-  color: #232247;
-}
-
-.TTButtonOrangeBorder:hover {
-  background-color: transparent;
-  color: #fff;
-  border: linear-gradient(to right, #fdcf58 0%, #ff0000 100%);
-}
-
-//
 
 .TTButtonOrangeFull {
-  width: 219px;
-  height: 48px;
-  padding: 0px 16px;
-  background: linear-gradient(to right, #fdcf58 0%, #ff0000 100%);
-  border: linear-gradient(to right, #fdcf58 0%, #ff0000 100%);
-  border-radius: 2px;
+  padding: 16px;
+  cursor: pointer;
+  background:
+    linear-gradient(270deg, #FDCF58 0%,#FF0000 100%) padding-box center,
+    linear-gradient(#232247, #232247) border-box;
+  background-size: 100% 100%,auto;
+
+  border: 1px solid transparent;
+  color: #000;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
   color: #232247;
+  font-size: 12px;
+  transform: 0;
+  line-height: 130%;
+
+  &:hover{
+ 	background:
+      linear-gradient(#232247, #232247) padding-box center,
+      linear-gradient(270deg, #FDCF58 0%, #FF0000 100%) border-box;
+  	background-size: 100% 100%,auto;
+
+    border: 1px solid transparent;
+    color: #fff;
+  }
 }
 
-.TTButtonOrangeFull:hover {
-  background-color: transparent;
-  // color: #fff;
-  border-color: linear-gradient(to right, #fdcf58 0%, #ff0000 100%);
+.TTButtonOrangeBorder {
+  padding: 16px;
+  cursor: pointer;
+  background:
+    linear-gradient(#232247, #232247) padding-box center,
+    linear-gradient(270deg, #FDCF58 0%,#FF0000 100%) border-box;
+  background-size: 100% 100%,auto;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+  color: #000;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  font-size: 12px;
+  transform: 0;
+  line-height: 130%;
+
+  &:hover{
+    background: linear-gradient(#232247, #232247) padding-box center,
+    linear-gradient(to right, #FF0000 0%, #FDCF58 100%) border-box;;
+    background-size: 0 0, auto;
+    color: #232247;
+  }
+}
+
+.TTButtonOrangeFullWhite{
+  padding: 16px;
+  cursor: pointer;
+  background:
+    linear-gradient(270deg, #FDCF58 0%,#FF0000 100%) padding-box center,
+    linear-gradient(#fff, #fff) border-box;
+  background-size: 100% 100%,auto;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #232247;
+  font-size: 12px;
+  transform: 0;
+  line-height: 130%;
+
+  &:hover{
+ 	background:
+      linear-gradient(#fff, #fff) padding-box center,
+      linear-gradient(270deg, #FDCF58 0%, #FF0000 100%) border-box;
+  	background-size: 100% 100%,auto;
+
+    border: 1px solid transparent;
+    color: #232247;
+  }
+}
+
+.TTButtonOrangeBorderWhite {
+  padding: 16px;
+  cursor: pointer;
+  background:
+    linear-gradient(#fff, #fff) padding-box center,
+    linear-gradient(270deg, #FDCF58 0%,#FF0000 100%) border-box;
+  background-size: 100% 100%,auto;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #232247;
+  font-size: 12px;
+  transform: 0;
+  line-height: 130%;
+
+  &:hover{
+    background: linear-gradient(#232247, #232247) padding-box center,
+    linear-gradient(to right, #FF0000 0%, #FDCF58 100%) border-box;;
+    background-size: 0 0, auto;
+    color: #232247;
+  }
 }

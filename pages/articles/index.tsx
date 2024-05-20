@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { TTDoneProjectFilters } from '@/components/TTDoneProjectFilters/TTDoneProjectFilters';
 
 import style from './style.module.scss';
+import { TTButton } from '@/components/TTButton/TTButton';
 
 const { Text } = Typography;
 
@@ -24,7 +25,7 @@ const articles = () => {
                 отрасли, как выбрать правильного пректировщика
               </Text>
             </Space>
-            <Button>Получить консультацию</Button>
+            <TTButton isColorBorder='blueFull' text={'Получить консультацию'} />
           </Space>
         </Col>
         <Col span={2} />
@@ -75,7 +76,12 @@ const articles = () => {
           </Card>
         </Col>
       </Row>
-      <Pagination defaultCurrent={1} total={50} style={{ margin: '64px 0px 121px' }} />
+      <Pagination defaultCurrent={1} total={50} style={{marginTop: 40}}/>
+      <Row>
+          <Col span={24} style={{display: 'flex', justifyContent: 'center', margin: '64px 0px 76px'}}>
+            <TTButton isColorBorder='blueFull' text={'Получить консультацию'} />
+          </Col>
+        </Row>
     </div>
   );
 };

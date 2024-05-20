@@ -11,6 +11,7 @@ import { ReleaseProject } from '@/components/TTReleaseProject/TTReleaseProject';
 
 import style from './genproektirovanie.module.scss';
 import _ from 'lodash';
+import { TTButton } from '@/components/TTButton/TTButton';
 
 const { Text } = Typography;
 const { Panel } = Collapse;
@@ -32,12 +33,14 @@ const genproektirovanie = () => {
       <TTBreadcrumb routes={routes} style={{ background: 'white', padding: '8px 0px' }} />
       <Row style={{ marginTop: 52 }}>
         <Col span={12} className={style.genproektirovanieLeftContent}>
-          <Space direction="vertical" style={{ maxWidth: 500, margin: 0, padding: 0 }}>
-            <Text className={style.genproektirovanieLeftContentTitle}>Генеральный проектировщик</Text>
-            <Text className={style.genproektirovanieLeftContentText}>
-              Проведение комплекных мероприятий может включать разные этапы и предполагает последовательное <br />
-              выплонедие следующих шагов
-            </Text>
+          <Space direction="vertical" style={{ maxWidth: 500, margin: 0, padding: 0, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <Space direction='vertical'>
+              <Text className={style.genproektirovanieLeftContentTitle}>Генеральный проектировщик</Text>
+              <Text className={style.genproektirovanieLeftContentText}>
+                Проведение комплекных мероприятий может включать разные этапы и предполагает последовательное <br />
+                выплонедие следующих шагов
+              </Text>
+            </Space>
             <div style={{ maxWidth: 400 }}>
               <Space className={style.genproektirovanieLeftContentItem}>
                 <GenTZ />
@@ -94,6 +97,7 @@ const genproektirovanie = () => {
                 </Space>
               </Space>
             </div>
+            <TTButton isColorBorder='blueFull' text={'Получить консультацию'} />
           </Space>
         </Col>
         <Col span={12}>
@@ -180,6 +184,11 @@ const genproektirovanie = () => {
         </Col>
       </Row>
       <ReleaseProject />
+      <Row>
+        <Col span={24} style={{display: 'flex', justifyContent: 'center', marginBottom: 76}}>
+          <TTButton isColorBorder='blueFull' text={'Получить консультацию'} />
+        </Col>
+      </Row>
     </div>
   );
 };

@@ -33,7 +33,9 @@ const Home: NextPage = (context) => {
             <Heading2 icon={<TTDowload />} label={'Скачать презентацию о компании '} />
           </a>
           <br />
-          <TTButton isColorBorder="blueFull" text={'Получить консультацию'} />
+          <Space>
+            <TTButton isColorBorder="blueBorder" text={'Получить консультацию'}/>
+          </Space>
         </Col>
         <Col span={12}>
           <Image
@@ -68,7 +70,7 @@ const Home: NextPage = (context) => {
       <Row>
         <Col span={24}>
           <Space align="center" style={{ marginBottom: 80, display: 'flex', justifyContent: 'center' }}>
-            <TTButton text={'Получить консультацию'} />
+            <TTButton isColorBorder="blueFull" text={'Получить консультацию'} />
           </Space>
         </Col>
       </Row>
