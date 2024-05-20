@@ -15,7 +15,7 @@ export const TTMainDirection = ({ icon, title, text, ...props }: TTMainDirection
     <Space className={`${style.direction_card}`} {...props}>
       {icon}
       <Space direction="vertical">
-<Text className={`${style.direction_title}`}>{title}</Text>
+        <Text className={`${style.direction_title}`}>{title}</Text>
         <Text className={`${style.direction_text}`}>{text}</Text>
       </Space>
     </Space>

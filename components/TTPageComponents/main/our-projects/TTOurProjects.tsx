@@ -1,5 +1,5 @@
 import { TTButton } from '@/components/TTButton/TTButton';
-import { Heading1, TextHeading } from '@/components/TTHeadings/TTHeadings';
+import { Heading1, Heading2, TextHeading } from '@/components/TTHeadings/TTHeadings';
 import { Col, Row, Space, Typography } from 'antd';
 import { OurProjects } from 'common/MainPage/OurProjects';
 import Image from 'next/image';
@@ -11,9 +11,9 @@ const { Text } = Typography;
 export const TTOurProjects = () => {
   const ourProjects = OurProjects();
   return (
-    <>
+    <div style={{ padding: '0px 64px' }}>
       <Row>
-        <Heading1 label="Наши проекты" />
+        <Heading1 label="Наши проекты" size={32} />
       </Row>
       {ourProjects.map((item, key) => {
         if (key === 1) {
@@ -68,6 +68,6 @@ export const TTOurProjects = () => {
           </Row>
         );
       })}
-    </>
+    </div>
   );
 };

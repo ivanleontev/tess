@@ -1,0 +1,25 @@
+.doneProjectForm {
+  margin-bottom: 30px;
+}
+
+.TTTagsFilter {
+  border: 1px solid #65657e;
+  border-radius: 32px;
+  padding: 8px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.TTTagsFilterFocus {
+  border: 1px solid #65657e;
+  border-radius: 32px;
+  padding: 8px;
+  font-size: 14px;
+  background: #e9e9ed;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  // content: '+';
+}

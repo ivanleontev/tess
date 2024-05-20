@@ -22,7 +22,7 @@ export default function TTFooter() {
       <div className={style.HeaderWrapper}>
         <div className={`${style.logo}`}>
           <Link href="/">
-            <Image src={`${search?.logoUrl}`} height={300} width={300} alt="Picture of the author" />
+            <Image src={`${search?.logoUrl}`} height={61} width={163} alt="Picture of the author" />
           </Link>
         </div>
         {router.pathname !== '/water' && (
@@ -31,7 +31,7 @@ export default function TTFooter() {
       </div>
       <div className={style.wrapperRightIcon}>
         <a className={style.headerPhone} href="tel:+79850600661">
-          + 7 985 060-06-61
+          + 7 985 060 06 61
         </a>
         <Image
           className={style.headerSearch}

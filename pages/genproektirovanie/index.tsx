@@ -105,60 +105,61 @@ const genproektirovanie = () => {
           <TTTabs
             defaultActiveKey="1"
             items={Genproektirovanie.tabsName.map((item) => {
-              if(item.key === 3){
+              if (item.key === 3) {
                 return {
                   ...item,
                   children: (
                     <Panel
                       key={_.uniqueId()}
-                      style={{marginLeft: 60}}
+                      style={{ marginLeft: 60 }}
                       header={
                         <>
-                          <Space direction='vertical'>
-                            <Space direction='vertical' style={{marginBottom: 11}}>
-                              <Text
-                                className={style.HeadingCustomPanel}
-                                style={{marginTop: 40, marginBottom: 11}}>
+                          <Space direction="vertical" style={{ maxWidth: '640px' }}>
+                            <Space direction="vertical" style={{ marginBottom: 11 }} size={24}>
+                              <Text className={style.HeadingCustomPanel} style={{ marginTop: 40, marginBottom: 11 }}>
                                 Стоимость
                               </Text>
-                              <Text style={{maxWidth: '600px !important'}}>
-                                Предоставляем предварительный расчет стоимости в течение 1-2 рабочих дней.
-                                Окончательная стоимость работ определяется после согласования технического задания и
-                                фиксируется в договорной документации
+                              <Text className={style.TextCustom}>
+                                Предоставляем предварительный расчет стоимости в течение 1-2 рабочих дней. Окончательная
+                                стоимость работ определяется после согласования технического задания и фиксируется
+                                в договорной документации
                               </Text>
                             </Space>
-                            <Space direction='vertical' style={{marginTop: 40}}>
-                              <Text style={{marginBottom: 11}} className={style.HeadingCustomPanel}>
-                                  Порядок оплаты
-                                </Text>
-                                <Text style={{maxWidth: '600px'}}>
-                                  Формируем и направляем счет на оплату в соотвествии с условиями договорной документации.
-                                  <br />
-                                  Оплату принимаем на расчетный счет.
-                                </Text>
+                            <Space direction="vertical" style={{ marginTop: 40 }} size={24}>
+                              <Text style={{ marginBottom: 11 }} className={style.HeadingCustomPanel}>
+                                Порядок оплаты
+                              </Text>
+                              <Text className={style.TextCustom}>
+                                Формируем и направляем счет на оплату
+                                <br />
+                                в соотвествии с условиями договорной документации.
+                                <br />
+                                Оплату принимаем на расчетный счет.
+                              </Text>
                             </Space>
-                            <Space direction='vertical' style={{marginTop: 40}} size={4}>
-                              <Space direction='horizontal'>
+                            <Space direction="vertical" style={{ marginTop: 40 }} size={24}>
+                              <Space direction="horizontal">
                                 <Text className={style.HeadingCustomPanel}>Реквизиты</Text>
-                                <a href="/images/myw3schoolsimage.jpg" download>
-                                  <Download/>
+                                <a href="/assets/requisites.pdf" download>
+                                  <Download />
                                 </a>
-
                               </Space>
-                              <Text className={style.HeadingCustomPanelItem}>ООО “Тессеракт”</Text>
-                              <Text className={style.HeadingCustomPanelItem}>ИНН 7703450987</Text>
-                              <Text className={style.HeadingCustomPanelItem}>КПП 770301001</Text>
-                              <Text className={style.HeadingCustomPanelItem}>р/с 40702810608760001234</Text>
-                              <Text className={style.HeadingCustomPanelItem}>В АО "АЛЬФА-БАНК" г.Москва</Text>
-                              <Text className={style.HeadingCustomPanelItem}>БИК 044525593</Text>
-                              <Text className={style.HeadingCustomPanelItem}>К/сч 30101810200000000593</Text>
+                              <Space direction="vertical" size={4}>
+                                <Text className={style.HeadingCustomPanelItem}>ООО “Тессеракт”</Text>
+                                <Text className={style.HeadingCustomPanelItem}>ИНН 7703450987</Text>
+                                <Text className={style.HeadingCustomPanelItem}>КПП 770301001</Text>
+                                <Text className={style.HeadingCustomPanelItem}>р/с 40702810608760001234</Text>
+                                <Text className={style.HeadingCustomPanelItem}>В АО "АЛЬФА-БАНК" г.Москва</Text>
+                                <Text className={style.HeadingCustomPanelItem}>БИК 044525593</Text>
+                                <Text className={style.HeadingCustomPanelItem}>К/сч 30101810200000000593</Text>
+                              </Space>
                             </Space>
                           </Space>
                         </>
                       }
                     />
-                  )
-                }
+                  ),
+                };
               }
 
               return {
@@ -170,7 +171,7 @@ const genproektirovanie = () => {
                     data={item.collapse}
                     heading={item.heading}
                     description={item.description}
-                    styleCustom={{marginLeft: 60}}
+                    styleCustom={{ marginLeft: 60 }}
                   />
                 ),
               };
