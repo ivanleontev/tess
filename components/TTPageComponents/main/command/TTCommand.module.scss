@@ -11,9 +11,21 @@
   font-size: 14px;
   color: #8381d3;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .textDesc {
   color: #fff;
   font-size: 16px;
   font-weight: normal;
+  display: flex;
+  svg {
+    margin-right: 32px;
+  }
+}
+.titleCommand {
+  font-size: 32px !important;
+  color: #fff !important;
+  font-weight: normal !important;
+  text-align: right !important;
+  margin-right: 35px !important;
 }

@@ -1,11 +1,6 @@
 export const ArchitektureHover = () => {
   return (
-    <svg
-      width="121"
-      height="120"
-      viewBox="0 0 121 120"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+    <svg width="121" height="121" viewBox="0 0 121 120" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M112.505 38.2888V9.22461C112.505 8.12004 111.609 7.22461 110.505 7.22461H10.5049C9.40031 7.22461 8.50488 8.12004 8.50488 9.22461V109.225C8.50488 110.329 9.40031 111.225 10.5049 111.225H43.3945M112.505 107.797V109.225C112.505 110.329 111.609 111.225 110.505 111.225H53.9922"
         stroke="url(#paint0_linear_444_16737)"
@@ -36,7 +31,8 @@ export const ArchitektureHover = () => {
           y1="59.2246"
           x2="112.505"
           y2="59.2246"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#D7DDE8" />
           <stop offset="1" stopColor="#757F9A" />
         </linearGradient>
@@ -47,12 +43,7 @@ export const ArchitektureHover = () => {
 
 export const AutorHover = () => {
   return (
-    <svg
-      width="121"
-      height="120"
-      viewBox="0 0 121 120"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+    <svg width="121" height="121" viewBox="0 0 121 120" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect
         x="8.04492"
         y="7.28516"
@@ -107,7 +98,8 @@ export const AutorHover = () => {
           y1="59.2852"
           x2="112.045"
           y2="59.2852"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#EC70FD" />
           <stop offset="0.431458" stopColor="#A34EF9" />
         </linearGradient>
@@ -118,12 +110,7 @@ export const AutorHover = () => {
 
 export const PowerHover = () => {
   return (
-    <svg
-      width="133"
-      height="138"
-      viewBox="0 0 133 138"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+    <svg width="134" height="138" viewBox="0 0 133 138" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M122.46 25.9375H22.46C21.3554 25.9375 20.46 26.8329 20.46 27.9375V127.938C20.46 129.042 21.3554 129.938 22.46 129.938H89.7154H122.46C123.565 129.938 124.46 129.042 124.46 127.938V109.33V27.9375C124.46 26.8329 123.565 25.9375 122.46 25.9375Z"
         stroke="url(#paint0_linear_444_16738)"
@@ -184,7 +171,8 @@ export const PowerHover = () => {
           y1="77.9375"
           x2="200.605"
           y2="77.9487"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#FEFFBE" />
           <stop offset="1" stopColor="#FFA751" />
         </linearGradient>
@@ -195,23 +183,13 @@ export const PowerHover = () => {
 
 export const ResearchHover = () => {
   return (
-    <svg
-      width="120"
-      height="121"
-      viewBox="0 0 120 121"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+    <svg width="120" height="121" viewBox="0 0 120 121" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M112.319 40.3756V11.0605C112.319 9.95598 111.424 9.06055 110.319 9.06055H10.3193C9.21477 9.06055 8.31934 9.95598 8.31934 11.0605V111.061C8.31934 112.165 9.21477 113.061 10.3193 113.061H110.319C111.424 113.061 112.319 112.165 112.319 111.061V74.3253"
         stroke="url(#paint0_linear_444_16741)"
         strokeWidth="2"
       />
-      <ellipse
-        rx="15.567"
-        ry="17.8733"
-        transform="matrix(-1 0 0 1 30.4808 78.9377)"
-        fill="#3B3B70"
-      />
+      <ellipse rx="15.567" ry="17.8733" transform="matrix(-1 0 0 1 30.4808 78.9377)" fill="#3B3B70" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -265,7 +243,8 @@ export const ResearchHover = () => {
           y1="61.0605"
           x2="112.319"
           y2="61.0605"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#00FFD6" />
           <stop offset="1" stopColor="#02AAB0" />
         </linearGradient>
@@ -276,12 +255,7 @@ export const ResearchHover = () => {
 
 export const WarmHover = () => {
   return (
-    <svg
-      width="121"
-      height="122"
-      viewBox="0 0 121 122"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+    <svg width="121" height="122" viewBox="0 0 121 122" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M112.489 38.534V11.0234C112.489 9.91887 111.594 9.02344 110.489 9.02344H10.4893C9.38469 9.02344 8.48926 9.91887 8.48926 11.0234V111.023C8.48926 112.128 9.38469 113.023 10.4893 113.023H65.6487M112.489 51.5877V111.023C112.489 112.128 111.594 113.023 110.489 113.023H92.8586"
         stroke="url(#paint0_linear_444_16739)"
@@ -340,7 +314,8 @@ export const WarmHover = () => {
           y1="61.0234"
           x2="112.489"
           y2="61.0234"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#FFBA5D" />
           <stop offset="1" stopColor="#F46B45" />
         </linearGradient>
@@ -351,12 +326,7 @@ export const WarmHover = () => {
 
 export const WaterHover = () => {
   return (
-    <svg
-      width="122"
-      height="120"
-      viewBox="0 0 122 120"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+    <svg width="121" height="121" viewBox="0 0 122 120" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect
         x="8.74854"
         y="8.35156"
@@ -385,7 +355,8 @@ export const WaterHover = () => {
           y1="60.3516"
           x2="112.749"
           y2="60.3516"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stopColor="#00D2FF" />
           <stop offset="1" stopColor="#3A7BD5" />
         </linearGradient>

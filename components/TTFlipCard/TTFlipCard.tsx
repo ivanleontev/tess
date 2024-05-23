@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './style.module.scss';
+import { Col } from 'antd';
 
 const data = [
   {
@@ -50,7 +51,7 @@ export const TTFlipCard = () => {
     <>
       {data.map((item, index) => {
         return (
-          <div key={index} className={style.flipCard}>
+          <Col span={8} key={index} className={style.flipCard}>
             <div className={style.flipCardInner}>
               <div
                 className={`${style.flipCardFront}
@@ -64,7 +65,7 @@ export const TTFlipCard = () => {
                 })}
               </div>
             </div>
-          </div>
+          </Col>
         );
       })}
     </>
