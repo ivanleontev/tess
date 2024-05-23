@@ -746,9 +746,9 @@ export const Download = () => {
   );
 };
 
-export const Command1 = () => {
+export const Command1 = (...props: any) => {
   return (
-    <svg width="32" height="35" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="32" height="35" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
@@ -864,9 +864,9 @@ export const Command3 = () => {
   );
 };
 
-export const Command4 = () => {
+export const Command4 = (...props: any) => {
   return (
-    <svg width="29" height="35" viewBox="0 0 29 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 29 35" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"

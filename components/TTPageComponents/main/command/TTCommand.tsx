@@ -6,14 +6,14 @@ import Image from 'next/image';
 import style from './TTCommand.module.scss';
 import { Command1, Command2, Command3, Command4 } from '@/components/Icons';
 
-const { Text } = Typography;
+const { Text, Title } = Typography;
 
 export const TTCommand = () => {
   return (
     <section className={style.wrapperCommand}>
       <Row style={{ marginBottom: 112 }}>
         <Col span={12}>
-          <Heading3 label={'Тессеракт – это мы'} />
+          <Title className={style.titleCommand}>Тессеракт – это мы</Title>
         </Col>
         <Col span={12}>
           <Space direction="vertical" size={24}>
@@ -98,19 +98,19 @@ export const TTCommand = () => {
           </Space>
           <Space direction="vertical" size={32}>
             <Text className={style.textDesc}>
-              <Command1 />
-              Применяем знания и опыт в различных сферах пректирования
+              <Command1 style={{ width: 35, height: 35 }} />
+              Применяем знания и опыт в различных сферах пректирования
             </Text>
             <Text className={style.textDesc}>
               <Command2 />
-              Обосновываем решения нормативами и расчетами эффективности
+              Обосновываем решения нормативами и расчетами эффективности
             </Text>
             <Text className={style.textDesc}>
               <Command3 />
               Решаем задачи не прописанные нормативными документами
             </Text>
             <Text className={style.textDesc}>
-              <Command4 />
+              <Command4 style={{ width: 35, height: 35 }} />
               Работаем по новейшим технологиям, используем подходы и успешный опыт зарубежных коллег
             </Text>
           </Space>

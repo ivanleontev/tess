@@ -34,7 +34,7 @@ const Home: NextPage = (context) => {
           </a>
           <br />
           <Space>
-            <TTButton isColorBorder="blueBorder" text={'Получить консультацию'}/>
+            <TTButton isColorBorder="blueBorder" text={'Получить консультацию'} />
           </Space>
         </Col>
         <Col span={12}>
@@ -53,7 +53,16 @@ const Home: NextPage = (context) => {
             return (
               <Col key={key} span={8}>
                 {item.map((item) => {
-                  return <TTMainDirection key={item.text} icon={item.icon} title={item.title} text={item.text} />;
+                  return (
+                    <TTMainDirection
+                      link={item.link}
+                      key={item.text}
+                      icon={item.icon}
+                      iconHover={item.iconHover}
+                      title={item.title}
+                      text={item.text}
+                    />
+                  );
                 })}
               </Col>
             );

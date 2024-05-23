@@ -3,13 +3,7 @@ import style from './style.module.scss';
 interface TTButtonProps {
   text: string;
   type?: 'primary' | 'default' | 'dashed' | 'link' | 'text' | 'ghost';
-  isColorBorder:
-  'orangeFull' |
-  'blueFull' |
-  'orangeBorder' |
-  'blueBorder' |
-  'orangeFullWhite' |
-  'orangeBorderWhite';
+  isColorBorder: 'orangeFull' | 'blueFull' | 'orangeBorder' | 'blueBorder' | 'orangeFullWhite' | 'orangeBorderWhite';
 }
 
 export const TTButton = ({ type = 'primary', isColorBorder = 'orangeFull', text, ...props }: TTButtonProps) => {
