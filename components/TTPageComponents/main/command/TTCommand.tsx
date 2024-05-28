@@ -92,7 +92,7 @@ export const TTCommand = () => {
         <Col span={12}></Col>
         <Col span={12}>
           <Space style={{ marginBottom: 32 }}>
-            <Text style={{ marginLeft: 25 }} className={style.textHeading}>
+            <Text style={{ marginLeft: 65 }} className={style.textHeading}>
               Что нас характеризует
             </Text>
           </Space>
@@ -110,7 +110,7 @@ export const TTCommand = () => {
               Решаем задачи не прописанные нормативными документами
             </Text>
             <Text className={style.textDesc}>
-              <Command4 style={{ width: 35, height: 35 }} />
+              <Command4 />
               Работаем по новейшим технологиям, используем подходы и успешный опыт зарубежных коллег
             </Text>
           </Space>

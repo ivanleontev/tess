@@ -6,13 +6,15 @@ import TTLayout from '../components/TTLayout/TTLayout';
 import { useRouter } from 'next/router';
 import { HandleSearchAssets } from 'common/HandleSearchAssets';
 import { TTBackTop } from '@/components/TTBackToTop/TTBackToTop';
+import { TTDrawerSearchPartners } from '@/components/TTDrawerSearchPartners/TTDrawerSearchPartners';
+import TTDrawerDownload from '@/components/TTDrawerDownload/TTDrawerDownload';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const route = HandleSearchAssets(router.asPath);
 
   return (
-    <TTLayout >
+    <TTLayout>
       <Component {...pageProps} />
       <TTBackTop />
     </TTLayout>

@@ -1,5 +1,4 @@
 .baner {
-  // height: 500px;
   background: #232247;
   padding: 0 110px;
   display: flex;
@@ -13,4 +12,10 @@
 .backgroundImg {
   background-image: url('/assets/Left24.svg');
   background-repeat: no-repeat;
+}
+
+.wrapperBackgroundMapsSlider {
+  background-image: url('/assets/Right24.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
 }

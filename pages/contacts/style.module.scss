@@ -37,3 +37,37 @@
   color: #232247;
   font-size: 16px;
 }
+
+.SpaceWrapper {
+  display: flex;
+  align-items: start;
+}
+.contactsTitle {
+  font-size: 14px;
+  color: #8381d3;
+  text-transform: uppercase;
+}
+
+.contactsSubtitle {
+  font-size: 18px;
+  color: #9191a3;
+  max-width: 416px;
+}
+.contactsSubtitle2 {
+  font-size: 24px;
+  color: #232247;
+}
+
+.contactsFormName,
+.contactsFormPhoneOrEmail,
+.contactsFormMessage {
+  background: #232247;
+  border: 0px;
+  border-image-source: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 0, 51, 0.5));
+  border-width: 5pt;
+  border-image-slice: 1;
+  padding: 10px;
+  &:focus {
+    border: 0px !important;
+  }
+}

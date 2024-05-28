@@ -1,4 +1,4 @@
-.wrapperOurProject{
+.wrapperOurProject {
   background-image: url('/assets/Left24.svg');
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -18,4 +18,10 @@
   line-height: 135%;
   letter-spacing: -0.01em;
   color: #232247;
+}
+.LinkAllProject {
+  a {
+    color: #65657e;
+    font-size: 16px;
+  }
 }

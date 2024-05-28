@@ -73,9 +73,12 @@ const Home: NextPage = (context) => {
         </Row>
       </div>
       <TTOurProjects />
+
       <TTMaps />
-      <TTSlider />
-      <TTCommand />
+      <div className={style.wrapperBackgroundMapsSlider}>
+        <TTSlider />
+        <TTCommand />
+      </div>
       <Row>
         <Col span={24}>
           <Space align="center" style={{ marginBottom: 80, display: 'flex', justifyContent: 'center' }}>

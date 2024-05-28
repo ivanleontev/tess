@@ -32,11 +32,11 @@ export const ReleaseProject = () => {
     // <Link href={''}>
     <Row
       className={`${style.wrapper}`}
-      style={{
-        backgroundImage: 'url(./assets/Left24.svg)',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'left',
-      }}
+      // style={{
+      //   backgroundImage: 'url(./assets/Left24.svg)',
+      //   backgroundRepeat: 'no-repeat',
+      //   backgroundPosition: 'left',
+      // }}
     >
       <Space direction="vertical">
         <Title level={2}>Реализованные проекты</Title>

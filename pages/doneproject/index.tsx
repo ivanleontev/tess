@@ -5,94 +5,120 @@ import style from './style.module.scss';
 import { TTDoneProjectFilters } from '@/components/TTDoneProjectFilters/TTDoneProjectFilters';
 import { TTCard } from '@/components/TTCard/TTCard';
 import { TTButton } from '@/components/TTButton/TTButton';
+import { TTBreadcrumb } from '@/components/TTBreadcrumb/TTBreadcrumb';
+import { Route } from 'antd/lib/breadcrumb/Breadcrumb';
 
 const { Text, Title } = Typography;
 
+const routes: Route[] = [
+  {
+    path: '',
+    breadcrumbName: 'Главная',
+  },
+  {
+    path: '',
+    breadcrumbName: 'Реализованные проекты',
+  },
+];
+
 const doneproject = () => {
   return (
-    <div className={style.doneProjectWrapper}>
-      <Row className={style.doneProjectBaner}>
-        <Col span={24}>
-          <Space direction="horizontal">
-            <Space direction="vertical" style={{ maxWidth: 500, marginRight: 115, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-              <Space direction="vertical">
-                <Title className={style.doneProjectTitle}>Реализованные проекты</Title>
-                <Text className={style.doneProjectDescription}>
-                  Пройдя на страницу проекта вы узнаете детали проекта: какое было ТЗ, как прорабатывали и принимали
-                  решения на какие международные и российские практики ориентировались, как реализовывали, с какими
-                  проблемами столкнулись и как их решали
-                </Text>
+    <>
+      <TTBreadcrumb routes={routes} style={{ background: 'white', padding: '8px 64px' }} />
+      <div className={style.doneProjectWrapper}>
+        <Row className={style.doneProjectBaner}>
+          <Col span={24}>
+            <Space direction="horizontal" style={{ display: 'flex', alignItems: 'flex-start' }}>
+              <Space
+                direction="vertical"
+                style={{
+                  maxWidth: 500,
+                  marginRight: 115,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'space-between',
+                }}
+              >
+                <Space direction="vertical">
+                  <Title className={style.doneProjectTitle}>Реализованные проекты</Title>
+                  <Text className={style.doneProjectDescription}>
+                    Пройдя на страницу проекта вы узнаете детали проекта: какое было ТЗ, как прорабатывали и принимали
+                    решения на какие международные и российские практики ориентировались, как реализовывали, с какими
+                    проблемами столкнулись и как их решали
+                  </Text>
+                </Space>
+                <TTButton isColorBorder="blueFull" text={'Скачать перезентацию'} />
               </Space>
-              <TTButton isColorBorder='blueFull' text={'Скачать перезентацию'} />
+              <Space>
+                <Image height={401} width={640} src="/assets/doneProject.png" alt="Picture of the author" />
+              </Space>
             </Space>
-            <Space>
-              <Image height={401} width={640} src="/assets/doneProject.png" alt="Picture of the author" />
-            </Space>
-          </Space>
-        </Col>
-      </Row>
-      <Row style={{ marginTop: 112 }}>
-        <Col span={24}>
-          <Title>Наши проекты</Title>
-          <TTDoneProjectFilters />
-        </Col>
-      </Row>
-      <Row style={{ marginTop: 40 }}>
-        <Col span={24}>
-          <Space direction="horizontal" style={{ display: 'flex' }}>
-            <TTCard
-              title={'Торгово-развлкательный центр'}
-              description={
-                'Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование Водоснабжения и канализации'
-              }
-              cover={<Image alt="123" width={400} height={320} src="/assets/doneProject.png" />}
-            />
-            <TTCard
-              title={'Торгово-развлкательный центр'}
-              description={
-                'Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование Водоснабжения и канализации'
-              }
-              cover={<Image alt="123" width={400} height={320} src="/assets/doneProject.png" />}
-            />
-            <TTCard
-              title={'Торгово-развлкательный центр'}
-              description={
-                'Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование Водоснабжения и канализации'
-              }
-              cover={<Image alt="123" width={400} height={320} src="/assets/doneProject.png" />}
-            />
-          </Space>
-          <Space direction="horizontal" style={{ display: 'flex' }}>
-            <TTCard
-              title={'Торгово-развлкательный центр'}
-              description={
-                'Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование Водоснабжения и канализации'
-              }
-              cover={<Image alt="123" width={400} height={320} src="/assets/doneProject.png" />}
-            />
-            <TTCard
-              title={'Торгово-развлкательный центр'}
-              description={
-                'Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование Водоснабжения и канализации'
-              }
-              cover={<Image alt="123" width={400} height={320} src="/assets/doneProject.png" />}
-            />
-            <TTCard
-              title={'Торгово-развлкательный центр'}
-              description={
-                'Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование Водоснабжения и канализации'
-              }
-              cover={<Image alt="123" width={400} height={320} src="/assets/doneProject.png" />}
-            />
-          </Space>
-          <Pagination defaultCurrent={1} total={50} />
-        </Col>
-      </Row><Row>
-          <Col span={24} style={{display: 'flex', justifyContent: 'center', marginTop: 64}}>
-            <TTButton isColorBorder='blueFull' text={'Получить консультацию'} />
           </Col>
         </Row>
-    </div>
+        <Row style={{ marginTop: 112 }}>
+          <Col span={24}>
+            <Title>Наши проекты</Title>
+            <TTDoneProjectFilters />
+          </Col>
+        </Row>
+        <Row style={{ marginTop: 40 }}>
+          <Col span={24}>
+            <Space direction="horizontal" style={{ display: 'flex' }}>
+              <TTCard
+                title={'Торгово-развлкательный центр'}
+                description={
+                  'Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование Водоснабжения и канализации'
+                }
+                cover={<Image alt="123" width={400} height={320} src="/assets/doneProject.png" />}
+              />
+              <TTCard
+                title={'Торгово-развлкательный центр'}
+                description={
+                  'Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование Водоснабжения и канализации'
+                }
+                cover={<Image alt="123" width={400} height={320} src="/assets/doneProject.png" />}
+              />
+              <TTCard
+                title={'Торгово-развлкательный центр'}
+                description={
+                  'Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование Водоснабжения и канализации'
+                }
+                cover={<Image alt="123" width={400} height={320} src="/assets/doneProject.png" />}
+              />
+            </Space>
+            <Space direction="horizontal" style={{ display: 'flex' }}>
+              <TTCard
+                title={'Торгово-развлкательный центр'}
+                description={
+                  'Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование Водоснабжения и канализации'
+                }
+                cover={<Image alt="123" width={400} height={320} src="/assets/doneProject.png" />}
+              />
+              <TTCard
+                title={'Торгово-развлкательный центр'}
+                description={
+                  'Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование Водоснабжения и канализации'
+                }
+                cover={<Image alt="123" width={400} height={320} src="/assets/doneProject.png" />}
+              />
+              <TTCard
+                title={'Торгово-развлкательный центр'}
+                description={
+                  'Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование Водоснабжения и канализации'
+                }
+                cover={<Image alt="123" width={400} height={320} src="/assets/doneProject.png" />}
+              />
+            </Space>
+            <Pagination defaultCurrent={1} total={50} />
+          </Col>
+        </Row>
+        <Row>
+          <Col span={24} style={{ display: 'flex', justifyContent: 'center', marginTop: 64 }}>
+            <TTButton isColorBorder="blueFull" text={'Получить консультацию'} />
+          </Col>
+        </Row>
+      </div>
+    </>
   );
 };
 export default doneproject;

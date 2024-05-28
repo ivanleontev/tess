@@ -16,6 +16,8 @@ export const TTSlider = () => {
         Клиенты и партнеры
       </Title>
       <Swiper
+        autoplay={true}
+        speed={500}
         slidesPerView={3}
         spaceBetween={30}
         slidesPerGroup={3}

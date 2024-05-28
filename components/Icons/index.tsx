@@ -1,14 +1,10 @@
 export const TTIconTelegram = () => {
   return (
-    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
-        d="M15.9998 27.3473C22.0565 27.3473 26.9665 22.4374 26.9665 16.3807C26.9665 10.324 22.0565 5.41406 15.9998 5.41406C9.94313 5.41406 5.0332 10.324 5.0332 16.3807C5.0332 18.5233 5.64768 20.5225 6.71001 22.2115L5.40063 27.1849L10.1129 25.635C11.8137 26.7191 13.8334 27.3473 15.9998 27.3473Z"
+        d="M9.25489 12.8465L16.9495 4.54523L4.91271 10.7711M9.25489 12.8465L7.85007 18.8808M9.25489 12.8465L12.4948 15.2319M4.91271 10.7711L7.85007 18.8808M4.91271 10.7711L1.81478 9.7442C0.920279 9.44768 0.894921 8.19164 1.77672 7.85926L20.1405 0.937325C20.8766 0.659848 21.6301 1.30179 21.4731 2.07266L18.2836 17.7303C18.1378 18.4459 17.2989 18.769 16.7108 18.336L12.4948 15.2319M7.85007 18.8808L12.4948 15.2319"
         stroke="white"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M12.2039 10.2667C11.9457 9.85413 11.2399 9.95044 10.8699 10.2666C7.06428 13.5182 11.1309 18.5283 12.8687 19.9878C15.6577 22.3302 19.5404 23.8603 22.0915 21.3726C22.6719 20.8067 23.1678 19.5343 22.4655 19.1295C21.2345 18.4201 21.3412 18.4189 20.1523 17.7416C19.202 17.2003 18.7855 19.4014 17.7155 19.6278C17.1079 19.7563 12.2039 16.2772 12.6471 14.8363C12.8756 14.0933 13.8767 13.5499 13.6995 13.1468C13.2725 12.1754 12.7353 11.1158 12.2039 10.2667Z"
-        stroke="white"
+        stroke-linejoin="round"
       />
     </svg>
   );
@@ -748,7 +744,7 @@ export const Download = () => {
 
 export const Command1 = (...props: any) => {
   return (
-    <svg width="32" height="35" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg width="40" height="35" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
@@ -787,7 +783,7 @@ export const Command1 = (...props: any) => {
 
 export const Command2 = () => {
   return (
-    <svg width="29" height="35" viewBox="0 0 29 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="40" height="35" viewBox="0 0 29 35" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
@@ -821,7 +817,7 @@ export const Command2 = () => {
 
 export const Command3 = () => {
   return (
-    <svg width="30" height="35" viewBox="0 0 30 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="40" height="35" viewBox="0 0 30 35" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
@@ -866,7 +862,7 @@ export const Command3 = () => {
 
 export const Command4 = (...props: any) => {
   return (
-    <svg viewBox="0 0 29 35" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg width="60" height="35" viewBox="0 0 29 35" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
@@ -908,6 +904,32 @@ export const IconRemove = (...props: any) => {
     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path d="M12 4L4 12" stroke="#393959" stroke-linejoin="round" />
       <path d="M4 4L12 12" stroke="#393959" stroke-linejoin="round" />
+    </svg>
+  );
+};
+
+export const IconMenuDropDown = () => {
+  return (
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M5.68091 6.76172L9.22257 10.3034L12.7642 6.76172"
+        stroke="white"
+        stroke-width="2"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const IconMenuDropDownRight = () => {
+  return (
+    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M6.72949 4.95898L10.2712 8.50065L6.72949 12.0423"
+        stroke="white"
+        stroke-width="2"
+        stroke-linejoin="round"
+      />
     </svg>
   );
 };

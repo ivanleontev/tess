@@ -31,14 +31,13 @@ export const TTOurProjects = () => {
                   <TTButton isColorBorder="blueFull" text="Получить консультацию" />
                 </Space>
               </Col>
-              <Col span={10} style={{minHeight: 430}}>
+              <Col span={10} style={{ minHeight: 430 }}>
                 <Image
                   src={item.imageUrl}
                   alt="Picture of the author"
                   // TODO: fix image size
-                  layout='fill'
-                  objectFit='contain'
-                  // style={{ marginLeft: 22 }}
+                  layout="fill"
+                  objectFit="contain"
                 />
               </Col>
               <Col span={2} />
@@ -48,20 +47,17 @@ export const TTOurProjects = () => {
         return (
           <Row key={key + item.tag}>
             <Col span={2} />
-            <Col span={10}
+            <Col
+              span={10}
               style={{
-                    display: 'flex',
-                    justifyContent: 'flex-end',
-                    marginRight: 14,
-                    marginBottom: 104,
-                    minHeight: 430
-                  }}>
-              <Image
-                src={item.imageUrl}
-                alt="Picture of the author"
-                layout='fill'
-                objectFit='contain'
-              />
+                display: 'flex',
+                justifyContent: 'flex-end',
+                marginRight: 14,
+                marginBottom: 104,
+                minHeight: 430,
+              }}
+            >
+              <Image src={item.imageUrl} alt="Picture of the author" layout="fill" objectFit="contain" />
             </Col>
             <Col span={10}>
               <Space direction="vertical" size={32}>
@@ -78,7 +74,7 @@ export const TTOurProjects = () => {
         );
       })}
       <Row>
-        <Col span={24}>
+        <Col span={24} className={style.LinkAllProject}>
           <Link href={'/doneproject'}>Все проекты</Link>
         </Col>
       </Row>
