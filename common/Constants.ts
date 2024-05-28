@@ -8,6 +8,7 @@ export const menuItems = [
     key: 2,
     label: 'Направления проектирования',
     link: '',
+    direction: [{}],
   },
   {
     key: 3,
@@ -17,7 +18,7 @@ export const menuItems = [
 ];
 
 export const footerInfo = {
-  phone: '+7 (495) 123-45-67',
+  phone: '+ 7 985 060-06-61',
   email: 'info@tesserakt.ru ',
   address: '119071, г. Москва, Ленинский пр., д. 19, стр. 2',
 };

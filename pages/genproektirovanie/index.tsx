@@ -30,11 +30,21 @@ const routes: Route[] = [
 const genproektirovanie = () => {
   return (
     <div className={style.wrapper}>
-      <TTBreadcrumb routes={routes} style={{ background: 'white', padding: '8px 0px' }} />
+      <TTBreadcrumb routes={routes} style={{ background: 'white', padding: '8px 0px', maxWidth: '300px' }} />
       <Row style={{ marginTop: 52 }}>
         <Col span={12} className={style.genproektirovanieLeftContent}>
-          <Space direction="vertical" style={{ maxWidth: 500, margin: 0, padding: 0, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-            <Space direction='vertical'>
+          <Space
+            direction="vertical"
+            style={{
+              maxWidth: 500,
+              margin: 0,
+              padding: 0,
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'space-between',
+            }}
+          >
+            <Space direction="vertical">
               <Text className={style.genproektirovanieLeftContentTitle}>Генеральный проектировщик</Text>
               <Text className={style.genproektirovanieLeftContentText}>
                 Проведение комплекных мероприятий может включать разные этапы и предполагает последовательное <br />
@@ -42,7 +52,7 @@ const genproektirovanie = () => {
               </Text>
             </Space>
             <div style={{ maxWidth: 400 }}>
-              <Space className={style.genproektirovanieLeftContentItem}>
+              <Space className={style.genproektirovanieLeftContentItem} size={16}>
                 <GenTZ />
                 <Space direction="vertical" size={0}>
                   <Text className={style.TitleStep}>ШАГ 1</Text>
@@ -51,7 +61,7 @@ const genproektirovanie = () => {
                   </Text>
                 </Space>
               </Space>
-              <Space className={style.genproektirovanieLeftContentItem}>
+              <Space className={style.genproektirovanieLeftContentItem} size={16}>
                 <GenTU />
                 <Space direction="vertical" size={0}>
                   <Text className={style.TitleStep}>ШАГ 2</Text>
@@ -60,7 +70,7 @@ const genproektirovanie = () => {
                   </Text>
                 </Space>
               </Space>
-              <Space className={style.genproektirovanieLeftContentItem}>
+              <Space className={style.genproektirovanieLeftContentItem} size={16}>
                 <GenPD />
                 <Space direction="vertical" size={0}>
                   <Text className={style.TitleStep}>ШАГ 3</Text>
@@ -69,7 +79,7 @@ const genproektirovanie = () => {
                   </Text>
                 </Space>
               </Space>
-              <Space className={style.genproektirovanieLeftContentItem}>
+              <Space className={style.genproektirovanieLeftContentItem} size={16}>
                 <GenRD />
                 <Space direction="vertical" size={0}>
                   <Text className={style.TitleStep}>ШАГ 4</Text>
@@ -78,7 +88,7 @@ const genproektirovanie = () => {
                   </Text>
                 </Space>
               </Space>
-              <Space className={style.genproektirovanieLeftContentItem}>
+              <Space className={style.genproektirovanieLeftContentItem} size={16}>
                 <GenAutorControl />
                 <Space direction="vertical" size={0}>
                   <Text className={style.TitleStep}>ШАГ 5</Text>
@@ -87,7 +97,7 @@ const genproektirovanie = () => {
                   </Text>
                 </Space>
               </Space>
-              <Space className={style.genproektirovanieLeftContentItem}>
+              <Space className={style.genproektirovanieLeftContentItem} size={16}>
                 <GenProgect />
                 <Space direction="vertical" size={0}>
                   <Text className={style.TitleStep}>ШАГ 6</Text>
@@ -97,11 +107,11 @@ const genproektirovanie = () => {
                 </Space>
               </Space>
             </div>
-            <TTButton isColorBorder='blueFull' text={'Получить консультацию'} />
+            <TTButton isColorBorder="blueFull" text={'Получить консультацию'} />
           </Space>
         </Col>
         <Col span={12}>
-          <Image src="/assets/TTMainGenproekt.png" height={584} width={528} alt="Your Name" />
+          <Image src="/assets/TTMainGenproekt.png" layout="fill" objectFit="contain" alt="Your Name" />
         </Col>
       </Row>
       <Row>
@@ -185,8 +195,8 @@ const genproektirovanie = () => {
       </Row>
       <ReleaseProject />
       <Row>
-        <Col span={24} style={{display: 'flex', justifyContent: 'center', marginBottom: 76}}>
-          <TTButton isColorBorder='blueFull' text={'Получить консультацию'} />
+        <Col span={24} style={{ display: 'flex', justifyContent: 'center', marginBottom: 76, marginTop: 64 }}>
+          <TTButton isColorBorder="blueFull" text={'Получить консультацию'} />
         </Col>
       </Row>
     </div>

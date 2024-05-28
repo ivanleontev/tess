@@ -54,6 +54,12 @@ export const HandleSearchAssets = (route: string) => {
       logoUrl: '/assets/logo/LogoAuthorControl.svg',
       illistrationUrl: '/assets/illustration/ContrtolIllustration.svg',
     },
+    {
+      path: `/genproektirovanie`,
+      name: 'Генеральный проектировщик',
+      logoUrl: '/assets/logo/LogoMain.svg',
+      illistrationUrl: '/assets/illustration/MainIllustration.svg',
+    },
   ];
 
   const search = routes.find((r) => r.path === route);

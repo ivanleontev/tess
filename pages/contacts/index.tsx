@@ -4,46 +4,70 @@ import Image from 'next/image';
 
 import style from './style.module.scss';
 import { Download } from '@/components/Icons';
+import { TTButton } from '@/components/TTButton/TTButton';
+import { TTBreadcrumb } from '@/components/TTBreadcrumb/TTBreadcrumb';
+import { Route } from 'antd/lib/breadcrumb/Breadcrumb';
 
 const { Text } = Typography;
+
+const routes: Route[] = [
+  {
+    path: '',
+    breadcrumbName: 'Главная',
+  },
+  {
+    path: '',
+    breadcrumbName: 'Контакты',
+  },
+];
 
 const contacts = () => {
   return (
     <div className={style.wrapperContacts}>
+      <TTBreadcrumb routes={routes} />
       <Row className={style.wrapperContactsBaner}>
         <Col span={24}>
-          <Space direction="horizontal">
-            <Space direction="vertical">
-              <Text className={style.contactsBanerTitle}>Проектируем объекты разной сложности</Text>
-              <Text>
-                Спроектировать объект целиком? Разработать проект инженерной коммуникаии? Или просто узнать как мы
-                делаем свою работу? Нам очень интересна ваша история
+          <Space direction="horizontal" className={style.SpaceWrapper}>
+            <Space direction="vertical" size={16}>
+              <Text className={style.contactsTitle}>Контакты</Text>
+              <Text className={style.contactsBanerTitle}>
+                Проектируем <br /> объекты разной сложности
               </Text>
-              {/* <Form>
-                <Form.Item label="Имя">
-                  <Input className={style.test} />
-                </Form.Item>
-                <Form.Item label="Телефон">
-                  <Input />
-                </Form.Item>
-                <Form.Item label="Email">
-                  <Input />
+              <div style={{ maxWidth: 400 }}>
+                <Text className={style.contactsSubtitle}>
+                  Спроектировать объект целиком? Разработать проект инженерной коммуникаии? Или просто узнать как мы
+                  делаем свою работу? Нам очень интересна ваша история
+                </Text>
+              </div>
+              <Form>
+                <Form.Item>
+                  <Input placeholder="Имя" className={style.contactsFormName} />
                 </Form.Item>
                 <Form.Item>
-                  <Button type="primary" htmlType="submit">
-                    Отправить
-                  </Button>
+                  <Input placeholder="Телефон или e-mail" className={style.contactsFormPhoneOrEmail} />
                 </Form.Item>
-              </Form> */}
+                <Form.Item>
+                  <Input placeholder="Сообщение" className={style.contactsFormMessage} />
+                </Form.Item>
+                <Form.Item>
+                  <TTButton htmlType="submit" text={'Отправить'} isColorBorder="blueFull" />
+                </Form.Item>
+              </Form>
             </Space>
             <div>
-              <Image height={401} width={640} src="/assets/contacts.png" alt="Picture of the author" />
               <Row>
-                <Col span={12}>
+                <Col span={24} style={{ height: 400, width: 500 }}>
+                  <Image layout="fill" objectFit="contain" src="/assets/contacts.png" alt="Picture of the author" />
+                </Col>
+              </Row>
+              <Row>
+                <Col span={11}>
                   <Space direction="vertical" size={50}>
                     <Space direction="vertical">
                       <Text className={style.bannerInfoTitle}>Адрес</Text>
-                      <Text className={style.bannerInfoText}>119071, г. Москва, Ленинский пр., д. 19, стр. 2</Text>
+                      <Text className={style.bannerInfoText}>
+                        119071, г. Москва, <br /> Ленинский пр., д. 19, стр. 2
+                      </Text>
                     </Space>
                     <Space direction="vertical">
                       <Text className={style.bannerInfoTitle}>Новые проекты</Text>
@@ -53,7 +77,8 @@ const contacts = () => {
                     </Space>
                   </Space>
                 </Col>
-                <Col span={12}>
+                <Col span={2} />
+                <Col span={11}>
                   <Space direction="vertical" size={50}>
                     <Space direction="vertical">
                       <Text className={style.bannerInfoTitle}>Главный инженер проекта</Text>
@@ -91,7 +116,7 @@ const contacts = () => {
             <Space direction="vertical" style={{ marginLeft: 33, maxWidth: 480 }}>
               <Space direction="vertical" size={16}>
                 <Text className={style.contactsTitle}>О КОМПАНИИ</Text>
-                <Text className={style.contactsSubtitle}>
+                <Text className={style.contactsSubtitle2}>
                   Тессеракт - это комплексный подход в масштабах всей Росии
                 </Text>
                 <Text className={style.contactsDesc}>
@@ -109,7 +134,7 @@ const contacts = () => {
                 </Text>
               </Space>
               <Space>
-                <Button>Получить консультацию</Button>
+                <TTButton htmlType="submit" text={'Получить консультацию'} isColorBorder="blueFull" />
               </Space>
             </Space>
           </Space>

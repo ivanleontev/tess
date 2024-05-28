@@ -1,5 +1,8 @@
 .wrapper {
   padding: 0 64px;
+  background-image: url('/assets/Right24.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 .genproektirovanieLeftContent {
   display: flex;
@@ -18,10 +21,6 @@
   margin-bottom: 12px;
 }
 
-.genproektirovanieLeftContentItem {
-  display: flex;
-  align-items: flex-start;
-}
 .TitleStep {
   color: #5651d0;
   font-size: 12px;
@@ -48,4 +47,9 @@
   color: #232247;
   font-size: 18px;
   max-width: 640px;
+}
+.tabsWrapper {
+  background-image: url('/assets/Right24.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
 }

@@ -4,9 +4,16 @@ interface TTButtonProps {
   text: string;
   type?: 'primary' | 'default' | 'dashed' | 'link' | 'text' | 'ghost';
   isColorBorder: 'orangeFull' | 'blueFull' | 'orangeBorder' | 'blueBorder' | 'orangeFullWhite' | 'orangeBorderWhite';
+  htmlType?: any;
 }
 
-export const TTButton = ({ type = 'primary', isColorBorder = 'orangeFull', text, ...props }: TTButtonProps) => {
+export const TTButton = ({
+  type = 'primary',
+  isColorBorder = 'orangeFull',
+  htmlType,
+  text,
+  ...props
+}: TTButtonProps) => {
   return (
     <button
       className={
@@ -24,6 +31,7 @@ export const TTButton = ({ type = 'primary', isColorBorder = 'orangeFull', text,
           ? style.TTButtonOrangeFullWhite
           : undefined
       }
+      {...props}
     >
       {text.toUpperCase()}
     </button>
