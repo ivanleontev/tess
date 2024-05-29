@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 
 import style from './style.module.scss';
-import { Download } from '@/components/Icons';
+import { Download, TTIconTelegram, TTIconWhatsApp } from '@/components/Icons';
 import { TTButton } from '@/components/TTButton/TTButton';
 import { TTBreadcrumb } from '@/components/TTBreadcrumb/TTBreadcrumb';
 import { Route } from 'antd/lib/breadcrumb/Breadcrumb';
@@ -26,12 +26,12 @@ const contacts = () => {
     <div className={style.wrapperContacts}>
       <TTBreadcrumb routes={routes} />
       <Row className={style.wrapperContactsBaner}>
-        <Col span={24}>
-          <Space direction="horizontal" className={style.SpaceWrapper}>
-            <Space direction="vertical" size={16}>
+        <Col span={2} />
+        <Col span={9}>
+          <Space direction="vertical" size={16}>
               <Text className={style.contactsTitle}>Контакты</Text>
               <Text className={style.contactsBanerTitle}>
-                Проектируем <br /> объекты разной сложности
+                Проектируем <br /> объекты разной <br /> сложности
               </Text>
               <div style={{ maxWidth: 400 }}>
                 <Text className={style.contactsSubtitle}>
@@ -40,13 +40,13 @@ const contacts = () => {
                 </Text>
               </div>
               <Form>
-                <Form.Item>
-                  <Input placeholder="Имя" className={style.contactsFormName} />
+                <Form.Item className={style.inputItem}>
+                  <Input placeholder="Имя" className={style.contactsFormName}/>
                 </Form.Item>
-                <Form.Item>
+                <Form.Item className={style.inputItem}>
                   <Input placeholder="Телефон или e-mail" className={style.contactsFormPhoneOrEmail} />
                 </Form.Item>
-                <Form.Item>
+                <Form.Item className={style.inputItem}>
                   <Input placeholder="Сообщение" className={style.contactsFormMessage} />
                 </Form.Item>
                 <Form.Item>
@@ -54,38 +54,38 @@ const contacts = () => {
                 </Form.Item>
               </Form>
             </Space>
-            <div>
-              <Row>
-                <Col span={24} style={{ height: 400, width: 500 }}>
-                  <Image layout="fill" objectFit="contain" src="/assets/contacts.png" alt="Picture of the author" />
-                </Col>
-              </Row>
-              <Row>
-                <Col span={11}>
-                  <Space direction="vertical" size={50}>
-                    <Space direction="vertical">
+        </Col>
+        <Col span={2} />
+        <Col span={9}>
+          <Space direction='vertical'size={25}>
+            <Space>
+              <Image height={360} width={480} src="/assets/contacts.png" alt="Picture of the author" />
+            </Space>
+              <Space direction='horizontal' size={37} style={{display: 'flex', alignItems: 'flex-start'}}>
+                <Space direction="vertical" size={51}>
+                    <Space direction='vertical'>
                       <Text className={style.bannerInfoTitle}>Адрес</Text>
                       <Text className={style.bannerInfoText}>
                         119071, г. Москва, <br /> Ленинский пр., д. 19, стр. 2
                       </Text>
                     </Space>
-                    <Space direction="vertical">
+                    <Space direction='vertical' size={16}>
                       <Text className={style.bannerInfoTitle}>Новые проекты</Text>
-                      <a>+ 7 985 060-06-61</a>
-                      <a href="mailto:mail@info@tesserakt.ru">info@tesserakt.ru</a>
-                      <div>icons</div>
+                      <a className={style.number}>+ 7 985 060-06-61</a>
+                      <a className={style.number} href="mailto:mail@info@tesserakt.ru">info@tesserakt.ru</a>
+                      <Space style={{marginTop: 20}}>
+                        <TTIconWhatsApp />
+                        <TTIconTelegram />
+                      </Space>
                     </Space>
-                  </Space>
-                </Col>
-                <Col span={2} />
-                <Col span={11}>
-                  <Space direction="vertical" size={50}>
-                    <Space direction="vertical">
+                </Space>
+                <Space direction="vertical" size={51}>
+                    <Space direction='vertical'>
                       <Text className={style.bannerInfoTitle}>Главный инженер проекта</Text>
                       <Text className={style.bannerInfoText}>Михаил Михайлов-Михайловский</Text>
-                      <a>+ 7 985 060-06-61</a>
+                      <a className={style.number}>+ 7 985 060-06-61</a>
                     </Space>
-                    <Space direction="vertical" size={0}>
+                    <Space direction='vertical' size={1}>
                       <Text className={style.bannerInfoTitle}>
                         Реквизиты
                         <a href="/assets/requisites.pdf" download>
@@ -100,12 +100,11 @@ const contacts = () => {
                       <Text className={style.bannerInfoText}>БИК 044525593</Text>
                       <Text className={style.bannerInfoText}>К/сч 30101810200000000593</Text>
                     </Space>
-                  </Space>
-                </Col>
-              </Row>
-            </div>
+                </Space>
+              </Space>
           </Space>
         </Col>
+        <Col span={2} />
       </Row>
       <Row style={{ marginTop: 113, marginBottom: 180, padding: '0px 64px' }}>
         <Col span={24} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

@@ -30,7 +30,6 @@
   color: #232247;
   font-size: 24px;
   font-weight: bold;
-  // max-width: 400px !important;
 }
 
 .contactsDesc {
@@ -67,7 +66,31 @@
   border-width: 5pt;
   border-image-slice: 1;
   padding: 10px;
+  color: #fff;
   &:focus {
-    border: 0px !important;
+    // border: 0px !important;
+    box-shadow: none;;
   }
+}
+
+.inputItem {
+  color: red;
+  max-width: 415px;
+  border-width: 1px;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-image: linear-gradient(270deg, #1fa2ff 0%, #12d8fa 50%, #a6ffcb 100%) 1;
+
+  &:focus {
+    border-bottom: 1px solid #9191A3;
+  }
+}
+
+.wrapperImageBaner{
+  margin-bottom: 25px;
+}
+.number{
+  color: #8381D3;
 }
