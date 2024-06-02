@@ -14,9 +14,14 @@ import Image from 'next/image';
 
 import style from './styles.module.scss';
 import { TTFlipCard } from '@/components/TTFlipCard/TTFlipCard';
+import { useContext } from 'react';
+import { SidebarContext } from './_app';
 
 const Home: NextPage = (context) => {
   const direction = Directions();
+  const { isOpen, onClick } = useContext(SidebarContext);
+
+  console.log(isOpen);
 
   return (
     <>
@@ -34,7 +39,7 @@ const Home: NextPage = (context) => {
           </a>
           <br />
           <Space>
-            <TTButton isColorBorder="blueBorder" text={'Получить консультацию'} />
+            <TTButton onClick={() => onClick(true)} isColorBorder="blueBorder" text={'Получить консультацию'} />
           </Space>
         </Col>
         <Col span={12}>

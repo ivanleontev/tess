@@ -1,6 +1,7 @@
 import { Col, Drawer, Row, Space, Typography } from 'antd';
 import React from 'react';
 import style from './TTDrawer.module.scss';
+import { TTIconWhatsApp, TTIconTelegram } from '../Icons';
 
 const { Text, Link } = Typography;
 
@@ -35,49 +36,75 @@ export const TTMainMenu = ({ open, onClose }: TTMainMenuProps) => {
       }
     >
       <Row>
-        <Col span={24}>
-          <Space direction="vertical" className={style.MenuContactsWrapper}>
-            <Text className={style.MenuHead}>КОНТАКТЫ</Text>
-            <Text className={style.MenuItem}>+ 7 985 060-06-61</Text>
-            <Text className={style.MenuItem}>info@tesserakt.ru</Text>
-            <Text className={style.MenuItem}>119071, г. Москва, </Text>
-            <Text className={style.MenuItem}>Ленинский пр., д. 19, стр. 2</Text>
-            <div className={style.MenuItem}>icons</div>
-          </Space>
-          <Space direction="vertical" className={style.MenuItemsWrapper} size={24}>
-            <Text className={style.MenuHead}>МЕНЮ</Text>
-            <Link href={'/genproektirovanie'} className={style.MenuItem} style={{ borderBottom: '1px solid white' }}>
-              Генеральный проектировщик
-            </Link>
-            <Link href={''} className={style.MenuItem} style={{ paddingTop: 24 }}>
-              Инженерные изыскания
-            </Link>
-            <Link href={''} className={style.MenuItem}>
-              Конструктив и архитектура
-            </Link>
-            <Link href={''} className={style.MenuItem}>
-              Водоснабжение и канализация
-            </Link>
-            <Link href={''} className={style.MenuItem}>
-              Отопление, вентиляция и кондиционирование
-            </Link>
-            <Link href={''} className={style.MenuItem}>
-              Электроснабжение и автоматика
-            </Link>
-            <Link href={''} className={style.MenuItem} style={{ borderBottom: '1px solid white', paddingBottom: 24 }}>
-              Авторский надзор
-            </Link>
-            <Link href={''} className={style.MenuItem} style={{ borderBottom: '1px solid white', paddingBottom: 24 }}>
-              Реализованные проекты
-            </Link>
-            <Link href={''} className={style.MenuItem} style={{ borderBottom: '1px solid white', paddingBottom: 24 }}>
-              Статьи
-            </Link>
-            <Link href={''} className={style.MenuItem} style={{ borderBottom: '1px solid white', paddingBottom: 24 }}>
-              Контакты
-            </Link>
+        <Col span={2} />
+        <Col span={6}>
+          <Space direction="vertical" className={style.MenuContactsWrapper} size={12}>
+            <Text className={style.MenuHead}>Контакты</Text>
+            <a className={style.MenuItemLeftBlock}>+ 7 985 060-06-61</a>
+            <a className={style.MenuItemLeftBlock}>info@tesserakt.ru</a>
+            <Space direction="vertical" size={0}>
+              <Text className={style.MenuItemLeftBlock}>119071, г. Москва, </Text>
+              <Text className={style.MenuItemLeftBlock}>Ленинский пр., д. 19, стр. 2</Text>
+            </Space>
+            <Space className={style.MenuItemLeftBlock} style={{ cursor: 'pointer' }}>
+              <TTIconWhatsApp />
+              <TTIconTelegram />
+            </Space>
           </Space>
         </Col>
+        <Col span={2} />
+        <Col span={10}>
+          <Text className={style.MenuHead}>Меню</Text>
+          <div className={style.MenuItemsWrapper}>
+            <Link
+              href={'/genproektirovanie'}
+              className={style.MenuItem}
+              style={{ borderBottom: '1px solid #fff', maxWidth: 280, paddingBottom: 24 }}
+            >
+              Генеральный проектировщик
+            </Link>
+            <Link href={'research'} className={style.MenuItem}>
+              Инженерные изыскания
+            </Link>
+            <Link href={'construction'} className={style.MenuItem}>
+              Конструктив и архитектура
+            </Link>
+            <Link href={'water'} className={style.MenuItem}>
+              Водоснабжение и канализация
+            </Link>
+            <Link href={'heating'} className={style.MenuItem}>
+              Отопление, вентиляция и кондиционирование
+            </Link>
+            <Link href={'light'} className={style.MenuItem}>
+              Электроснабжение и автоматика
+            </Link>
+            <Link
+              href={'authorcontrol'}
+              className={style.MenuItem}
+              style={{ borderBottom: '1px solid #fff', paddingBottom: 24 }}
+            >
+              Авторский надзор
+            </Link>
+            <Link
+              href={'doneproject'}
+              className={style.MenuItem}
+              style={{ borderBottom: '1px solid #fff', maxWidth: 240, paddingBottom: 24 }}
+            >
+              Реализованные проекты
+            </Link>
+            <Link
+              href={'articles'}
+              className={style.MenuItem}
+              style={{ borderBottom: '1px solid #fff', maxWidth: 80, paddingBottom: 24 }}
+            >
+              Статьи
+            </Link>
+            <Link href={'contacts'} className={style.MenuItem}>
+              Контакты
+            </Link>
+          </div>
+        </Col>
+        <Col span={4} />
       </Row>
     </Drawer>
   );

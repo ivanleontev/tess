@@ -25,7 +25,7 @@ const articles = () => {
                 отрасли, как выбрать правильного пректировщика
               </Text>
             </Space>
-            <TTButton isColorBorder='blueFull' text={'Получить консультацию'} />
+            <TTButton isColorBorder="blueFull" text={'Получить консультацию'} />
           </Space>
         </Col>
         <Col span={2} />
@@ -39,49 +39,38 @@ const articles = () => {
         </Col>
       </Row>
       <Row gutter={[32, 48]}>
-        <Col span={12}>
-          <Card
-            title={
-              <Space direction="vertical">
-                <Text className={style.articlesTitle}>Кто такой генеральный проектировщик и что он делает</Text>
-                <Text className={style.articlesDesc}>
-                  Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование
-                  Водоснабжения и канализации
-                </Text>
-              </Space>
-            }
-            bordered={false}
-            headStyle={{ borderBottom: 0, padding: 0 }}
-            bodyStyle={{ padding: 0 }}
-          >
-            <Image height={401} width={640} src="/assets/imagearticles.png" alt="Picture of the author" />
+        <Col span={11}>
+          <Card className={style.cardArticle} bordered={false} bodyStyle={{ padding: 0 }}>
+            <Space direction="vertical" className={style.cardTitle}>
+              <Text className={style.articlesTitle}>Кто такой генеральный проектировщик и что он делает</Text>
+              <Text className={style.articlesDesc}>
+                Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование
+                Водоснабжения и канализации
+              </Text>
+            </Space>
+            <img width={'100%'} height={'100%'} src="/assets/imagearticles.png" alt="Picture of the author" />
           </Card>
         </Col>
-        <Col span={12}>
-          <Card
-            title={
-              <Space direction="vertical">
-                <Text className={style.articlesTitle}>Кто такой генеральный проектировщик и что он делает</Text>
-                <Text className={style.articlesDesc}>
-                  Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование
-                  Водоснабжения и канализации
-                </Text>
-              </Space>
-            }
-            bordered={false}
-            headStyle={{ borderBottom: 0, padding: 0 }}
-            bodyStyle={{ padding: 0 }}
-          >
-            <Image height={401} width={640} src="/assets/imagearticles.png" alt="Picture of the author" />
+        <Col span={1} />
+        <Col span={11}>
+          <Card className={style.cardArticle} bordered={false} bodyStyle={{ padding: 0 }}>
+            <Space direction="vertical" className={style.cardTitle}>
+              <Text className={style.articlesTitle}>Кто такой генеральный проектировщик и что он делает</Text>
+              <Text className={style.articlesDesc}>
+                Инженерные изыскания, проектирование водоснабжения и канализации Инженерные изыскания, проектирование
+                Водоснабжения и канализации
+              </Text>
+            </Space>{' '}
+            <img width={'100%'} src="/assets/imagearticles.png" alt="Picture of the author" />
           </Card>
         </Col>
       </Row>
-      <Pagination defaultCurrent={1} total={50} style={{marginTop: 40}}/>
+      <Pagination defaultCurrent={1} total={50} style={{ marginTop: 40 }} />
       <Row>
-          <Col span={24} style={{display: 'flex', justifyContent: 'center', margin: '64px 0px 76px'}}>
-            <TTButton isColorBorder='blueFull' text={'Получить консультацию'} />
-          </Col>
-        </Row>
+        <Col span={24} style={{ display: 'flex', justifyContent: 'center', margin: '64px 0px 76px' }}>
+          <TTButton isColorBorder="blueFull" text={'Получить консультацию'} />
+        </Col>
+      </Row>
     </div>
   );
 };

@@ -9,6 +9,7 @@
 .ModalSearchPartnerPost {
   font-size: 12px;
   color: #8381d3;
+  font-weight: bold;
   text-transform: uppercase;
 }
 .ModalSearchPartnerName {
@@ -20,4 +21,56 @@
     font-size: 18px;
     color: #fdfcff !important;
   }
+}
+
+.itemInput {
+  background: #232247;
+  border: none;
+  // border-bottom: ;
+}
+
+.itemInputTextDown {
+  font-size: 14px;
+  color: #9191a3;
+  padding-left: 10px;
+}
+
+.contactsFormName,
+.contactsFormPhoneOrEmail,
+.contactsFormMessage {
+  background: #232247;
+  border: 0px;
+  border-image-source: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 0, 51, 0.5));
+  border-width: 5pt;
+  border-image-slice: 1;
+  padding: 10px;
+  color: #fff;
+  &:focus {
+    // border: 0px !important;
+    box-shadow: none;
+  }
+}
+
+.inputItem {
+  color: red;
+  max-width: 415px;
+  border-width: 1px;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-image: linear-gradient(270deg, #1fa2ff 0%, #12d8fa 50%, #a6ffcb 100%) 1;
+
+  &:focus {
+    border-bottom: 1px solid #9191a3;
+  }
+}
+
+.contactsFormFile {
+  margin-bottom: 0 !important;
+  // margin-bottom: 20px !important;
+}
+
+.contactsFormLastItem {
+  margin-top: 25px;
 }

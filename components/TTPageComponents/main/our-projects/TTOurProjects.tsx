@@ -21,7 +21,7 @@ export const TTOurProjects = () => {
           return (
             <Row key={key + item.tag} style={{ marginBottom: 104 }}>
               <Col span={2} />
-              <Col span={10}>
+              <Col span={8}>
                 <Space direction="vertical" size={32}>
                   <Space direction="vertical">
                     <TextHeading label={item.tag} />
@@ -31,13 +31,15 @@ export const TTOurProjects = () => {
                   <TTButton isColorBorder="blueFull" text="Получить консультацию" />
                 </Space>
               </Col>
-              <Col span={10} style={{ minHeight: 430 }}>
-                <Image
+              <Col span={2} />
+              <Col span={8} style={{ minHeight: 430 }}>
+                <img
                   src={item.imageUrl}
                   alt="Picture of the author"
                   // TODO: fix image size
-                  layout="fill"
-                  objectFit="contain"
+                  // layout="fill"
+                  // objectFit="contain"
+                  width={'100%'}
                 />
               </Col>
               <Col span={2} />
@@ -48,7 +50,7 @@ export const TTOurProjects = () => {
           <Row key={key + item.tag}>
             <Col span={2} />
             <Col
-              span={10}
+              span={8}
               style={{
                 display: 'flex',
                 justifyContent: 'flex-end',
@@ -57,9 +59,15 @@ export const TTOurProjects = () => {
                 minHeight: 430,
               }}
             >
-              <Image src={item.imageUrl} alt="Picture of the author" layout="fill" objectFit="contain" />
+              <img
+                width={'100%'}
+                src={item.imageUrl}
+                alt="Picture of the author"
+                //  layout="fill" objectFit="contain"
+              />
             </Col>
-            <Col span={10}>
+            <Col span={2} />
+            <Col span={8}>
               <Space direction="vertical" size={32}>
                 <Space direction="vertical">
                   <TextHeading label={item.tag} />

@@ -66,7 +66,11 @@ export const TTCollapse = ({
                 <Panel className={`${style.panelHeader}`} header={item.title.toUpperCase()} key={index}>
                   <p className={`${style.panelText}`}>
                     {item.text}
-                    {item.link && <Link href={item.link}> Узнать больше </Link>}
+                    {item.link && (
+                      <Link className={style.moreLink} href={item.link}>
+                        &nbsp;Узнать больше
+                      </Link>
+                    )}
                   </p>
                 </Panel>
               );

@@ -1,7 +1,7 @@
 .wrapperContactsBaner {
   background: #232247;
-  padding-left: 176px;
-  padding-right: 256px;
+  // padding-left: 176px;
+  // padding-right: 256px;
   padding-top: 64px;
   padding-bottom: 134px;
 }
@@ -69,7 +69,7 @@
   color: #fff;
   &:focus {
     // border: 0px !important;
-    box-shadow: none;;
+    box-shadow: none;
   }
 }
 
@@ -84,13 +84,13 @@
   border-image: linear-gradient(270deg, #1fa2ff 0%, #12d8fa 50%, #a6ffcb 100%) 1;
 
   &:focus {
-    border-bottom: 1px solid #9191A3;
+    border-bottom: 1px solid #9191a3;
   }
 }
 
-.wrapperImageBaner{
+.wrapperImageBaner {
   margin-bottom: 25px;
 }
-.number{
-  color: #8381D3;
+.number {
+  color: #8381d3;
 }

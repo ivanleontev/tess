@@ -31,8 +31,10 @@ const genproektirovanie = () => {
   return (
     <div className={style.wrapper}>
       <TTBreadcrumb routes={routes} style={{ background: 'white', padding: '8px 0px', maxWidth: '300px' }} />
+
       <Row style={{ marginTop: 52 }}>
-        <Col span={12} className={style.genproektirovanieLeftContent}>
+        <Col span={2} />
+        <Col span={10} className={style.genproektirovanieLeftContent}>
           <Space
             direction="vertical"
             style={{
@@ -110,9 +112,10 @@ const genproektirovanie = () => {
             <TTButton isColorBorder="blueFull" text={'Получить консультацию'} />
           </Space>
         </Col>
-        <Col span={12}>
+        <Col span={10}>
           <Image src="/assets/TTMainGenproekt.png" layout="fill" objectFit="contain" alt="Your Name" />
         </Col>
+        <Col span={2} />
       </Row>
       <Row>
         <Col span={24}>
