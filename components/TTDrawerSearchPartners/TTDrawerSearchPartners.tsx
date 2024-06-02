@@ -1,25 +1,20 @@
 import { Button, Checkbox, Col, Drawer, Form, Input, Row, Space, Typography } from 'antd';
-import React, { useState } from 'react';
 
 import style from './style.module.scss';
+import { TTButton } from '../TTButton/TTButton';
+import { IconUploadFile1, IconUploadFile2 } from '../Icons';
 
 const { Text } = Typography;
 
-export const TTDrawerSearchPartners = () => {
-  const [open, setOpen] = useState(true);
+interface TTDrawerSearchPartners {
+  open: boolean;
+  onClose: (open: boolean) => void;
+}
 
-  const showDrawer = () => {
-    setOpen(true);
-  };
-
-  const onClose = () => {
-    setOpen(false);
-  };
-
+export const TTDrawerSearchPartners = ({ open, onClose }: TTDrawerSearchPartners) => {
   return (
     <Drawer
       height={839}
-      // className={style.TTMainMenu}
       headerStyle={{
         backgroundColor: '#232247',
         border: 0,
@@ -37,9 +32,9 @@ export const TTDrawerSearchPartners = () => {
           <path d="M6.83984 6.15039L19.5366 18.1504" stroke="white" strokeWidth="2" strokeLinejoin="round" />
         </svg>
       }
-      title="LOGO"
+      // title="LOGO"
       placement="top"
-      onClose={onClose}
+      onClose={() => onClose(false)}
       open={open}
     >
       <Row>
@@ -49,7 +44,7 @@ export const TTDrawerSearchPartners = () => {
             <Text className={style.ModalSearchPartnerHeading}>Ищете партнера для проектирования?</Text>
             <Text className={style.ModalSearchPartnerDescription}>
               Нужен генеральный проектировщик на строительный объект? Нужно спроектировать отдельно иженерную систему
-              или провести инженерные изыскания? Позвоните или напишмие нам – мы ответим на ваши вопросы.
+              или провести инженерные изыскания? <br /> Позвоните или напишмие нам – мы ответим на ваши вопросы.
             </Text>
           </Space>
           <Space direction="vertical" size={12}>
@@ -62,29 +57,39 @@ export const TTDrawerSearchPartners = () => {
             </Text>
           </Space>
         </Col>
-        <Col span={10}>
-          <Form
-            name="basic"
-            labelCol={{ span: 8 }}
-            wrapperCol={{ span: 16 }}
-            initialValues={{ remember: true }}
-            // onFinish={onFinish}
-            // onFinishFailed={onFinishFailed}
-            autoComplete="off"
-          >
-            <Form.Item name="username">
-              <Input />
-            </Form.Item>
-
-            <Form.Item name="password">
-              <Input.Password />
-            </Form.Item>
-
-            <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
-              <Button type="primary" htmlType="submit">
-                Submit
-              </Button>
-            </Form.Item>
+        <Col span={2} />
+        <Col span={8}>
+          <Form name="basic">
+            <Form>
+              <Form.Item className={style.inputItem}>
+                <Input placeholder="Имя" className={style.contactsFormName} />
+              </Form.Item>
+              <Form.Item className={style.inputItem}>
+                <Input placeholder="Телефон или e-mail" className={style.contactsFormPhoneOrEmail} />
+              </Form.Item>
+              <Form.Item className={`${style.inputItem} ${style.contactsFormFile}`}>
+                <Input
+                  placeholder="Прикрепить ТЗ"
+                  className={style.contactsFormMessage}
+                  suffix={
+                    <Space>
+                      <IconUploadFile1 />
+                      <IconUploadFile2 />
+                    </Space>
+                  }
+                />
+              </Form.Item>
+              <span className={style.itemInputTextDown}>При наличии ТЗ прикрепите файл не более 10 МБ</span>
+              <Form.Item className={style.inputItem}>
+                <Input
+                  placeholder="Сообщение"
+                  className={`${style.contactsFormMessage} ${style.contactsFormLastItem}`}
+                />
+              </Form.Item>
+              <Form.Item>
+                <TTButton htmlType="submit" text={'Отправить'} isColorBorder="blueBorder" />
+              </Form.Item>
+            </Form>
           </Form>
         </Col>
         <Col span={2} />

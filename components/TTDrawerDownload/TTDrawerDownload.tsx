@@ -37,7 +37,7 @@ export default function TTDrawerDownload() {
           <path d="M6.83984 6.15039L19.5366 18.1504" stroke="white" strokeWidth="2" strokeLinejoin="round" />
         </svg>
       }
-      title="LOGO"
+      title=""
       placement="top"
       onClose={onClose}
       open={open}

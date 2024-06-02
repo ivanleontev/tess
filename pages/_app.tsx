@@ -7,17 +7,24 @@ import { useRouter } from 'next/router';
 import { HandleSearchAssets } from 'common/HandleSearchAssets';
 import { TTBackTop } from '@/components/TTBackToTop/TTBackToTop';
 import { TTDrawerSearchPartners } from '@/components/TTDrawerSearchPartners/TTDrawerSearchPartners';
-import TTDrawerDownload from '@/components/TTDrawerDownload/TTDrawerDownload';
+import { createContext, useState } from 'react';
+
+export const SidebarContext = createContext(null);
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const route = HandleSearchAssets(router.asPath);
 
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <TTLayout>
-      <Component {...pageProps} />
-      <TTBackTop />
-    </TTLayout>
+    <SidebarContext.Provider value={{ isOpen: isOpen, onClick: setIsOpen }}>
+      <TTLayout>
+        <Component {...pageProps} />
+        <TTBackTop />
+        <TTDrawerSearchPartners open={isOpen} onClose={setIsOpen} />
+      </TTLayout>
+    </SidebarContext.Provider>
   );
 }
 

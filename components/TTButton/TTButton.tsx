@@ -5,6 +5,7 @@ interface TTButtonProps {
   type?: 'primary' | 'default' | 'dashed' | 'link' | 'text' | 'ghost';
   isColorBorder: 'orangeFull' | 'blueFull' | 'orangeBorder' | 'blueBorder' | 'orangeFullWhite' | 'orangeBorderWhite';
   htmlType?: any;
+  onClick?: () => void;
 }
 
 export const TTButton = ({
@@ -12,6 +13,7 @@ export const TTButton = ({
   isColorBorder = 'orangeFull',
   htmlType,
   text,
+  onClick,
   ...props
 }: TTButtonProps) => {
   return (
@@ -31,6 +33,7 @@ export const TTButton = ({
           ? style.TTButtonOrangeFullWhite
           : undefined
       }
+      onClick={onClick}
       {...props}
     >
       {text.toUpperCase()}
