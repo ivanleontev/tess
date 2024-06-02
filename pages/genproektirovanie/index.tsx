@@ -1,7 +1,7 @@
 import { TTBreadcrumb } from '@/components/TTBreadcrumb/TTBreadcrumb';
 import { Row, Col, Typography, Space, Collapse } from 'antd';
 import { Route } from 'antd/lib/breadcrumb/Breadcrumb';
-import React from 'react';
+import React, { useContext } from 'react';
 import Image from 'next/image';
 import { GenAutorControl, GenPD, GenProgect, GenRD, GenTU, GenTZ, Download } from '@/components/Icons';
 import { TTTabs } from '@/components/TTTabs/TTTabs';
@@ -12,6 +12,7 @@ import { ReleaseProject } from '@/components/TTReleaseProject/TTReleaseProject';
 import style from './genproektirovanie.module.scss';
 import _ from 'lodash';
 import { TTButton } from '@/components/TTButton/TTButton';
+import { SidebarContext } from 'pages/_app';
 
 const { Text } = Typography;
 const { Panel } = Collapse;

@@ -87,7 +87,7 @@ const Home: NextPage = (context) => {
       <Row>
         <Col span={24}>
           <Space align="center" style={{ marginBottom: 80, display: 'flex', justifyContent: 'center' }}>
-            <TTButton isColorBorder="blueFull" text={'Получить консультацию'} />
+            <TTButton isColorBorder="blueFull" text={'Получить консультацию'} onClick={() => onClick(true)} />
           </Space>
         </Col>
       </Row>

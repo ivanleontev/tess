@@ -6,10 +6,14 @@ import Image from 'next/image';
 
 import style from './TTOurProjects.module.scss';
 import Link from 'next/link';
+import { SidebarContext } from 'pages/_app';
+import { useContext } from 'react';
 
 const { Text } = Typography;
 
 export const TTOurProjects = () => {
+  const { isOpen, onClick } = useContext(SidebarContext);
+
   const ourProjects = OurProjects();
   return (
     <div className={`${style.wrapperOurProject}`} style={{ padding: '0px 64px' }}>
@@ -28,7 +32,7 @@ export const TTOurProjects = () => {
                     <Text className={`${style.TTOurProjectsTitle}`}>{item.title}</Text>
                   </Space>
                   <Text className={`${style.TTOurProjectsText}`}>{item.text}</Text>
-                  <TTButton isColorBorder="blueFull" text="Получить консультацию" />
+                  <TTButton onClick={() => onClick(true)} isColorBorder="blueFull" text="Получить консультацию" />
                 </Space>
               </Col>
               <Col span={2} />
@@ -74,7 +78,7 @@ export const TTOurProjects = () => {
                   <Text className={`${style.TTOurProjectsTitle}`}>{item.title}</Text>
                 </Space>
                 <Text className={`${style.TTOurProjectsText}`}>{item.text}</Text>
-                <TTButton isColorBorder="blueFull" text="Получить консультацию" />
+                <TTButton onClick={() => onClick(true)} isColorBorder="blueFull" text="Получить консультацию" />
               </Space>
             </Col>
             <Col span={2} />
