@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Typography, Col, Row, Space, Pagination } from 'antd';
 import React from 'react';
 import Image from 'next/image';

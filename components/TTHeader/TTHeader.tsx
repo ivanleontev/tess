@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Dropdown, Layout, Space } from 'antd';
 import { menuItems } from 'common/Constants';
 import { HandleSearchAssets } from 'common/HandleSearchAssets';

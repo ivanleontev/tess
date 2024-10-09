@@ -54,7 +54,7 @@ const light = () => {
           <Col span={24}>
             <TTTabs
               defaultActiveKey="1"
-              items={DirectionStaticHelpersWater.tabsName.map((item, index) => {
+              items={DirectionStaticHelpersWater.tabsName.map((item: any) => {
                 return {
                   ...item,
                   children: (
@@ -72,10 +72,10 @@ const light = () => {
         </Row>
         <ReleaseProject />
         <Row>
-          <Col span={24} style={{display: 'flex', justifyContent: 'center', marginBottom: 76}}>
+          <Col span={24} style={{ display: 'flex', justifyContent: 'center', marginBottom: 76 }}>
             <Space size={16}>
-              <TTButton isColorBorder='orangeFullWhite' text={'Отправить тз'} />
-              <TTButton isColorBorder='orangeBorderWhite' text={'Скачать перезентацию'} />
+              <TTButton isColorBorder="orangeFullWhite" text={'Отправить тз'} />
+              <TTButton isColorBorder="orangeBorderWhite" text={'Скачать перезентацию'} />
             </Space>
           </Col>
         </Row>

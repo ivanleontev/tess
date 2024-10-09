@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Button, Card, Col, Form, Input, Pagination, Row, Space, Typography } from 'antd';
 import Image from 'next/image';
 import { TTDoneProjectFilters } from '@/components/TTDoneProjectFilters/TTDoneProjectFilters';

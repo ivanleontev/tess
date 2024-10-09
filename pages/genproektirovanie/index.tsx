@@ -167,7 +167,7 @@ const genproektirovanie = () => {
                                 <Text className={style.HeadingCustomPanelItem}>ИНН 7703450987</Text>
                                 <Text className={style.HeadingCustomPanelItem}>КПП 770301001</Text>
                                 <Text className={style.HeadingCustomPanelItem}>р/с 40702810608760001234</Text>
-                                <Text className={style.HeadingCustomPanelItem}>В АО "АЛЬФА-БАНК" г.Москва</Text>
+                                <Text className={style.HeadingCustomPanelItem}>В АО “АЛЬФА-БАНК” г.Москва</Text>
                                 <Text className={style.HeadingCustomPanelItem}>БИК 044525593</Text>
                                 <Text className={style.HeadingCustomPanelItem}>К/сч 30101810200000000593</Text>
                               </Space>

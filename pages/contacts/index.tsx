@@ -98,7 +98,7 @@ const contacts = () => {
                   <Text className={style.bannerInfoText}>ИНН 7703450987</Text>
                   <Text className={style.bannerInfoText}>КПП 770301001</Text>
                   <Text className={style.bannerInfoText}>р/с 40702810608760001234</Text>
-                  <Text className={style.bannerInfoText}>В АО "АЛЬФА-БАНК" г.Москва</Text>
+                  <Text className={style.bannerInfoText}>В АО “АЛЬФА-БАНК” г.Москва</Text>
                   <Text className={style.bannerInfoText}>БИК 044525593</Text>
                   <Text className={style.bannerInfoText}>К/сч 30101810200000000593</Text>
                 </Space>

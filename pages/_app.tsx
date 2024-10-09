@@ -9,7 +9,7 @@ import { TTBackTop } from '@/components/TTBackToTop/TTBackToTop';
 import { TTDrawerSearchPartners } from '@/components/TTDrawerSearchPartners/TTDrawerSearchPartners';
 import { createContext, useState } from 'react';
 
-export const SidebarContext = createContext(null);
+export const SidebarContext = createContext<any>(null);
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();

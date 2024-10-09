@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { HandleSearchAssets } from 'common/HandleSearchAssets';
 import { useRouter } from 'next/router';
 import { Col, Row, Space } from 'antd';

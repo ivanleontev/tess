@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { TTButton } from '@/components/TTButton/TTButton';
 import { Heading1, Heading2, TextHeading } from '@/components/TTHeadings/TTHeadings';
 import { Col, Row, Space, Typography } from 'antd';
@@ -12,7 +13,7 @@ import { useContext } from 'react';
 const { Text } = Typography;
 
 export const TTOurProjects = () => {
-  const { isOpen, onClick } = useContext(SidebarContext);
+  const { isOpen, onClick } = useContext<any>(SidebarContext);
 
   const ourProjects = OurProjects();
   return (
