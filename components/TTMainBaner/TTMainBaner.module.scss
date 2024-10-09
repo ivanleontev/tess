@@ -2,12 +2,33 @@
   display: flex;
   justify-content: space-between;
   background: #232247;
-  margin-bottom: 66px;
-  padding: 0px 146px;
+  margin-bottom: 104px;
+  padding-bottom: 70px;
+  padding-top: 45px;
 }
 .TTMainBanerWrapper__leftBlock {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  max-width: 290px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.TTMainBanerWrapper__leftBlockText {
+  max-width: 379px;
+}
+
+.heading1 {
+  font-size: 14px;
+  color: #fdfcff;
+  text-transform: uppercase;
+}
+
+.heading2 {
+  font-size: 32px;
+  color: #fff;
+  min-width: 379px;
+}
+.heading3 {
+  font-size: 18px;
+  color: #fdfcff;
 }

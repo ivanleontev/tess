@@ -1,17 +1,58 @@
-.panelHeader{
-    max-width: 650px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 130%;
-    letter-spacing: 0.03em;
-    color: #393959;
+.panelHeader {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #393959;
 }
 
 .panelText {
-    max-width: 650px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 135%;
-    letter-spacing: -0.01em;
-    color: #232247;
+  max-width: 650px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  letter-spacing: -0.01em;
+  color: #232247;
+  a {
+    color: #5651d0 !important;
+  }
+}
+
+.panelTitle {
+  font-size: 24px;
+  color: #393959;
+}
+
+.panelDesc {
+  max-width: 672px;
+  font-size: 18px;
+  color: #232247;
+  font-weight: 400;
+}
+
+.heading {
+  color: #393959;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  color: #232247;
+  font-size: 18px;
+  max-width: 640px;
+  font-weight: normal;
+}
+
+.itemList {
+  padding-left: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  letter-spacing: -0.01em;
+  color: #232247;
+}
+
+.itemLi {
+  list-style-image: url('/assets/bullit.svg');
+  margin-bottom: 8px;
 }

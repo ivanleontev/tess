@@ -1,0 +1,31 @@
+.articlBanerHeader {
+  font-size: 32px;
+  color: #232247;
+}
+
+.articleBanerDescription {
+  color: #272e49;
+  font-size: 18px;
+}
+
+.articlesTitle {
+  font-size: 18px;
+  color: #272e49;
+  font-weight: bold;
+}
+.articlesDesc {
+  color: #272e49;
+  font-size: 14px;
+}
+
+.cardArticle {
+  cursor: pointer;
+  transition: 0.1s ease-out 100ms;
+  &:hover {
+    box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.03);
+  }
+}
+
+.cardTitle {
+  padding: 16px;
+}

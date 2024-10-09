@@ -1,10 +1,77 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 64px;
+  height: 96px;
+}
+
+.wrapperRightIcon {
+  display: flex;
+  align-items: center;
+}
+
+.HeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.menuItemWrapper {
+  padding-bottom: 20px;
+  display: flex;
+}
+.itemMenu {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 16px;
+  // padding-bottom: 6px;
+  &:hover {
+    color: #8381d3;
+  }
+}
+
+.itemMenuActive {
+  border-bottom: 1px solid #fff;
+}
+.IconMenuDropDown {
+  display: flex;
+  align-items: center;
+}
+
+.dropDownWrapper {
+  background: #232247;
+  padding-bottom: 16px;
+  padding-right: 8px;
+  margin-left: -10px;
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+  a {
+    color: #fff;
+    padding-left: 16px;
+    &:hover {
+      color: #8381d3;
+    }
+  }
+}
 .logo {
   float: left;
   width: 120px;
   height: 31px;
   margin: 16px 24px 16px 0;
-  background: rgba(255, 255, 255, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.headerPhone {
+  font-size: 22px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.headerPhone:hover {
+  color: #ffffff;
+}
+
+.headerMenu,
+.headerMenu {
+  cursor: pointer;
 }

@@ -1,0 +1,28 @@
+.MenuItemsWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 440px;
+}
+
+.MenuHead {
+  color: #8381d3;
+  font-size: 12px;
+  padding-left: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.MenuItem {
+  color: #fff !important;
+  font-size: 18px !important;
+  padding: 24px 8px 0px 8px;
+  &:hover {
+    color: #8381d3 !important;
+  }
+}
+
+.MenuItemLeftBlock {
+  color: #fff !important;
+  font-size: 18px !important;
+  padding: 24px 8px 0px 8px;
+}

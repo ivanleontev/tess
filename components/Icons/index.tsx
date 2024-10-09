@@ -1,14 +1,10 @@
 export const TTIconTelegram = () => {
   return (
-    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
-        d="M15.9998 27.3473C22.0565 27.3473 26.9665 22.4374 26.9665 16.3807C26.9665 10.324 22.0565 5.41406 15.9998 5.41406C9.94313 5.41406 5.0332 10.324 5.0332 16.3807C5.0332 18.5233 5.64768 20.5225 6.71001 22.2115L5.40063 27.1849L10.1129 25.635C11.8137 26.7191 13.8334 27.3473 15.9998 27.3473Z"
+        d="M9.25489 12.8465L16.9495 4.54523L4.91271 10.7711M9.25489 12.8465L7.85007 18.8808M9.25489 12.8465L12.4948 15.2319M4.91271 10.7711L7.85007 18.8808M4.91271 10.7711L1.81478 9.7442C0.920279 9.44768 0.894921 8.19164 1.77672 7.85926L20.1405 0.937325C20.8766 0.659848 21.6301 1.30179 21.4731 2.07266L18.2836 17.7303C18.1378 18.4459 17.2989 18.769 16.7108 18.336L12.4948 15.2319M7.85007 18.8808L12.4948 15.2319"
         stroke="white"
         stroke-linejoin="round"
-      />
-      <path
-        d="M12.2039 10.2667C11.9457 9.85413 11.2399 9.95044 10.8699 10.2666C7.06428 13.5182 11.1309 18.5283 12.8687 19.9878C15.6577 22.3302 19.5404 23.8603 22.0915 21.3726C22.6719 20.8067 23.1678 19.5343 22.4655 19.1295C21.2345 18.4201 21.3412 18.4189 20.1523 17.7416C19.202 17.2003 18.7855 19.4014 17.7155 19.6278C17.1079 19.7563 12.2039 16.2772 12.6471 14.8363C12.8756 14.0933 13.8767 13.5499 13.6995 13.1468C13.2725 12.1754 12.7353 11.1158 12.2039 10.2667Z"
-        stroke="white"
       />
     </svg>
   );
@@ -20,7 +16,7 @@ export const TTIconWhatsApp = () => {
       <path
         d="M15.9998 27.3473C22.0565 27.3473 26.9665 22.4374 26.9665 16.3807C26.9665 10.324 22.0565 5.41406 15.9998 5.41406C9.94313 5.41406 5.0332 10.324 5.0332 16.3807C5.0332 18.5233 5.64768 20.5225 6.71001 22.2115L5.40063 27.1849L10.1129 25.635C11.8137 26.7191 13.8334 27.3473 15.9998 27.3473Z"
         stroke="white"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12.2039 10.2667C11.9457 9.85413 11.2399 9.95044 10.8699 10.2666C7.06428 13.5182 11.1309 18.5283 12.8687 19.9878C15.6577 22.3302 19.5404 23.8603 22.0915 21.3726C22.6719 20.8067 23.1678 19.5343 22.4655 19.1295C21.2345 18.4201 21.3412 18.4189 20.1523 17.7416C19.202 17.2003 18.7855 19.4014 17.7155 19.6278C17.1079 19.7563 12.2039 16.2772 12.6471 14.8363C12.8756 14.0933 13.8767 13.5499 13.6995 13.1468C13.2725 12.1754 12.7353 11.1158 12.2039 10.2667Z"
@@ -46,21 +42,16 @@ export const TTDowload = () => {
       <path
         d="M4.72567 11.0716L12.0577 18.4036M19.3897 11.0716L12.0577 18.4036M12.0577 18.4036V1.99873"
         stroke="white"
-        stroke-width="1.5"
+        strokeWidth="1.5"
       />
-      <path d="M3.13037 22.2988H20.5304" stroke="white" stroke-width="1.5" />
+      <path d="M3.13037 22.2988H20.5304" stroke="white" strokeWidth="1.5" />
     </svg>
   );
 };
 
 export const TTMaps = () => {
   return (
-    <svg
-      width="827"
-      height="476"
-      viewBox="0 0 827 476"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+    <svg width="827" height="476" viewBox="0 0 827 476" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M66.5747 320.614L65.6602 317.582L64.1794 316.369L63.7358 316.007L63.1107 314.183L63.1113 314.182L64.7704 312.211L66.0451 309.302V306.542L64.6504 303.929L63.231 301.686L64.5056 300.651L65.2754 298.679H66.8149L67.9695 297.619L68.884 294.069L69.1241 291.974L68.1142 289.336L66.6948 287.882L64.7704 287.636L63.351 286.058L62.1964 284.333L60.4645 285.836L59.1175 284.456L57.9629 282.484L59.1175 280.389L61.5711 277.899L63.2308 275.927L63.8805 273.561L65.8048 273.413L67.1996 274.991L67.9693 276.963L70.5432 277.9L72.9726 277.111L73.6223 274.473L74.392 271.59L72.4677 269.618L73.7424 268.681L73.6221 266.462L74.3919 263.307L75.8113 259.881L76.8212 256.997L79.395 256.208L80.3095 254.236L82.7629 252.116H85.3123V254.236L86.6116 251.068L88.4563 252.116L89.8108 246.435L93.0891 241.918L95.4055 244.234H97.7219L99.1434 244.894L100.965 245.56L103.745 246.435H105.686L106.841 248.172L109.03 246.435H112.084L113.648 244.894L117.377 246.435L116.992 248.983H119.959V250.141H123.086L131.657 254.236H134.321V258.249H137.332L141.624 261.028L144.05 259.881L145.44 266.462L148.683 270.873L155.863 268.681L158.411 270.873L160.264 268.681L161.307 271.59L165.824 272.726L168.372 276.963L173.207 280.389L174.742 282.484H176.791H179.99L180.64 280.389L184.368 282.484L182.082 284.456L182.563 290.236H177.103L176.791 291.974L173.64 290.236L169.839 292.984L165.824 291.974L163.946 289.336H162.262L157.403 291.839L151.486 290.236L149.918 292.984L145.44 291.839L142.248 297.619L129.042 300.651L128.537 305.438L130.894 308.758L126.348 312.421H123.775V314.183L121.273 316.369L119.959 315.868L117.617 318.668V324.682L119.959 325.564L119.301 329.879H116.727V331.534L106.841 336.025V339.134H103.745L101.717 337.626H100.965H97.7219L94.0199 339.134L93.0891 343.218L89.8108 344.278H86.6116L82.7629 345.812L80.8148 344.278L78.6258 343.218V340.457L76.5813 338.091L75.8115 335.084L73.8872 333.9L71.8184 331.534L72.5882 328.773L71.8184 324.682L69.389 322.857L66.5747 320.614Z"
         fill="url(#paint0_linear_283_40)"
@@ -126,8 +117,8 @@ export const TTMaps = () => {
         fill="url(#paint15_linear_283_40)"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M690.44 310.253V311.362L692.341 310.548L693.327 311.583L694.434 310.448L694.483 310.251H690.441L690.44 310.253ZM825.699 316.415L824.207 317.944L823.75 319.891L824.519 321.715L823.967 324.673L825.411 324.993L826.205 323.194L825.748 320.68L826.085 318.511L825.7 316.415L825.699 316.415ZM822.644 331.599L822.091 332.167L822.524 334.115L823.413 332.734L822.644 331.599ZM823.871 355.83V356.84L825.314 357.654V355.953L823.871 355.83Z"
         fill="url(#paint16_linear_283_40)"
       />
@@ -142,10 +133,11 @@ export const TTMaps = () => {
           y1="293.865"
           x2="57.9629"
           y2="293.865"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_283_40"
@@ -153,10 +145,11 @@ export const TTMaps = () => {
           y1="350.9"
           x2="5.37438e-07"
           y2="350.9"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_283_40"
@@ -164,10 +157,11 @@ export const TTMaps = () => {
           y1="379.733"
           x2="28.9346"
           y2="379.733"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_283_40"
@@ -175,10 +169,11 @@ export const TTMaps = () => {
           y1="418.886"
           x2="37.6611"
           y2="418.886"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_283_40"
@@ -186,10 +181,11 @@ export const TTMaps = () => {
           y1="342.305"
           x2="106.865"
           y2="342.305"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_283_40"
@@ -197,10 +193,11 @@ export const TTMaps = () => {
           y1="218.851"
           x2="30.1299"
           y2="218.851"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_283_40"
@@ -208,10 +205,11 @@ export const TTMaps = () => {
           y1="218.851"
           x2="30.1299"
           y2="218.851"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_283_40"
@@ -219,10 +217,11 @@ export const TTMaps = () => {
           y1="218.851"
           x2="30.1299"
           y2="218.851"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_283_40"
@@ -230,10 +229,11 @@ export const TTMaps = () => {
           y1="292.633"
           x2="203.256"
           y2="292.633"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_283_40"
@@ -241,10 +241,11 @@ export const TTMaps = () => {
           y1="292.633"
           x2="203.256"
           y2="292.633"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_283_40"
@@ -252,10 +253,11 @@ export const TTMaps = () => {
           y1="274.868"
           x2="286.447"
           y2="274.868"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_283_40"
@@ -263,10 +265,11 @@ export const TTMaps = () => {
           y1="274.868"
           x2="286.447"
           y2="274.868"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_283_40"
@@ -274,10 +277,11 @@ export const TTMaps = () => {
           y1="274.868"
           x2="286.447"
           y2="274.868"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_283_40"
@@ -285,10 +289,11 @@ export const TTMaps = () => {
           y1="227.699"
           x2="470.084"
           y2="227.699"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_283_40"
@@ -296,10 +301,11 @@ export const TTMaps = () => {
           y1="227.699"
           x2="470.084"
           y2="227.699"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_283_40"
@@ -307,10 +313,11 @@ export const TTMaps = () => {
           y1="227.699"
           x2="470.084"
           y2="227.699"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_283_40"
@@ -318,10 +325,11 @@ export const TTMaps = () => {
           y1="227.699"
           x2="470.084"
           y2="227.699"
-          gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1FA2FF" />
-          <stop offset="0.5" stop-color="#12D8FA" />
-          <stop offset="1" stop-color="#A6FFCB" />
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_283_40"
@@ -329,7 +337,441 @@ export const TTMaps = () => {
           y1="227.699"
           x2="470.084"
           y2="227.699"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export const DownCollapseArrow = () => {
+  return (
+    <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1 1.5L6 6.5L11 1.5" stroke="#3B3B70" strokeWidth="2" strokeLinejoin="round" />
+    </svg>
+  );
+};
+
+export const UpCollapseArrow = () => {
+  return (
+    <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M11 6L6 1L1 6" stroke="#393959" strokeWidth="2" strokeLinejoin="round" />
+    </svg>
+  );
+};
+
+export const GenAutorControl = () => {
+  return (
+    <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M28.8078 3.75431V2.375H22.8819V3.75431H28.8078Z" fill="url(#paint0_linear_2272_1920)" />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M2.58301 37.8575V36.0907H3.96232V37.8575C3.96232 38.2384 4.27109 38.5471 4.65198 38.5471H38.0655C38.4464 38.5471 38.7552 38.2384 38.7552 37.8575V4.44397C38.7552 4.06308 38.4464 3.75431 38.0655 3.75431H28.8078V2.375H38.0655C39.2082 2.375 40.1345 3.30131 40.1345 4.44397V37.8575C40.1345 39.0001 39.2082 39.9265 38.0655 39.9265H4.65198C3.50932 39.9265 2.58301 39.0001 2.58301 37.8575Z"
+        fill="url(#paint1_linear_2272_1920)"
+      />
+      <path d="M3.96232 26.1508H2.58301V36.0907H3.96232L3.96232 26.1508Z" fill="url(#paint2_linear_2272_1920)" />
+      <path d="M8.08801 32.4525V34.5165L36.1701 34.5165V32.4525L8.08801 32.4525Z" fill="#3B3B70" />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M38.0792 34.5165H36.1701V32.4525V18.3206H38.0792L38.0792 34.5165ZM31.9864 10.9192V8.91797H6.17871L6.17897 34.5165H8.08801V32.4525L8.08775 10.9192L31.9864 10.9192Z"
+        fill="#3B3B70"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M38.0792 10.4007L26.8535 21.6264L22.9668 17.7397L24.4495 16.257L26.8535 18.661L36.5964 8.91797L38.0792 10.4007Z"
+        fill="#3B3B70"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M31.9588 9.70597H30.2009L30.2009 6.51969L4.34098 6.51969L4.34102 9.70597H2.58306L2.58301 4.76172H31.9588V9.70597Z"
+        fill="#3B3B70"
+      />
+      <path d="M2.58325 27.2491H4.34122V25.436L4.34102 9.70597H2.58306L2.58325 27.2491Z" fill="#3B3B70" />
+      <path d="M4.34122 25.436V27.2491H7.22338V25.436H4.34122Z" fill="#3B3B70" />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M22.897 3.83198L22.897 6.122H24.354V2.375H0.0078125L0.00787135 7.88355H1.46484L1.46479 3.83198L22.897 3.83198Z"
+        fill="#3B3B70"
+      />
+      <path d="M1.46498 19.5094V21.0121L4.09236 21.0121V19.5094L1.46498 19.5094Z" fill="#3B3B70" />
+      <path d="M0.00801161 21.0121H1.46498V19.5094L1.46484 7.88355H0.00787135L0.00801161 21.0121Z" fill="#3B3B70" />
+      <defs>
+        <linearGradient
+          id="paint0_linear_2272_1920"
+          x1="38.2884"
+          y1="21.1507"
+          x2="2.58301"
+          y2="21.1507"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_2272_1920"
+          x1="38.2884"
+          y1="21.1507"
+          x2="2.58301"
+          y2="21.1507"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+        <linearGradient
+          id="paint2_linear_2272_1920"
+          x1="38.2884"
+          y1="21.1507"
+          x2="2.58301"
+          y2="21.1507"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export const GenProgect = () => {
+  return (
+    <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M38.0655 3.75431H18.6696V2.375H38.0655C39.2082 2.375 40.1345 3.30131 40.1345 4.44397V37.8575C40.1345 39.0001 39.2082 39.9265 38.0655 39.9265H4.65197C3.50931 39.9265 2.58301 39.0001 2.58301 37.8575V3.06466H3.96232V37.8575C3.96232 38.2384 4.27109 38.5471 4.65197 38.5471H38.0655C38.4464 38.5471 38.7552 38.2384 38.7552 37.8575V4.44397C38.7552 4.06308 38.4464 3.75431 38.0655 3.75431Z"
+        fill="url(#paint0_linear_2272_2416)"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M2.214 2.17188H19.6178L19.6177 8.93655H33.2344V36.7049H30.9748V11.1962H19.6177V36.7049H17.3581L17.3582 4.43148H4.47361L4.47348 36.7049H2.21387L2.214 2.17188ZM14.8796 11.9156H11.402V9.65602H14.8796V11.9156ZM6.44311 11.9156H9.92071V9.65602H6.44311V11.9156ZM14.8796 15.5552H11.402V13.2956H14.8796V15.5552ZM6.44311 15.5552H9.92071V13.2956H6.44311V15.5552ZM14.9476 19.1947H11.4701V16.9351H14.9476V19.1947ZM6.51046 19.1947H9.98806V16.9351H6.51046V19.1947ZM14.9476 22.8343H11.4701V20.5747H14.9476V22.8343ZM6.51046 22.8343H9.98806V20.5747H6.51046V22.8343ZM14.947 26.4738H11.4694V24.2142H14.947V26.4738ZM6.50979 26.4738H9.98738V24.2142H6.50979V26.4738ZM14.8453 30.1134H11.3677V27.8538H14.8453V30.1134ZM6.40809 30.1134H9.88569V27.8538H6.40809V30.1134ZM29.2159 15.5726H25.7383V13.313H29.2159V15.5726ZM25.7383 19.2122H29.2159V16.9526H25.7383V19.2122ZM29.2159 22.8517H25.7383V20.5921H29.2159V22.8517ZM25.7383 26.4913H29.2159V24.2317H25.7383V26.4913ZM29.2159 30.1308H25.7383V27.8712H29.2159V30.1308ZM20.8811 15.5726H24.3587V13.313H20.8811V15.5726ZM24.3587 19.2122H20.8811V16.9526H24.3587V19.2122ZM20.8811 22.8517H24.3587V20.5921H20.8811V22.8517ZM24.3587 26.4913H20.8811V24.2317H24.3587V26.4913ZM20.8811 30.1308H24.3587V27.8712H20.8811V30.1308Z"
+        fill="#3B3B70"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_2272_2416"
+          x1="38.2884"
+          y1="21.1507"
+          x2="2.58301"
+          y2="21.1507"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export const GenPD = () => {
+  return (
+    <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M28.8078 3.75431V2.375H7.45934V3.75431H28.8078Z" fill="url(#paint0_linear_2272_4326)" />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M3.96232 4.44397C3.96232 4.06308 4.27109 3.75431 4.65197 3.75431H7.45934V2.375H4.65197C3.50932 2.375 2.58301 3.30131 2.58301 4.44397V9.21008H3.96232V4.44397ZM2.58301 36.0907V37.8575C2.58301 39.0001 3.50931 39.9265 4.65197 39.9265H38.0655C39.2082 39.9265 40.1345 39.0001 40.1345 37.8575V4.44397C40.1345 3.30131 39.2082 2.375 38.0655 2.375H28.8078V3.75431H38.0655C38.4464 3.75431 38.7552 4.06308 38.7552 4.44397V37.8575C38.7552 38.2384 38.4464 38.5471 38.0655 38.5471H4.65197C4.27109 38.5471 3.96232 38.2384 3.96232 37.8575V36.0907H2.58301Z"
+        fill="url(#paint1_linear_2272_4326)"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M37.0572 7.86187L37.0573 37.2369H34.7977L1.55874 37.2369H-0.700863L-0.701172 8.33283H4.98626V10.5924H1.55844L1.55874 34.9064L34.7977 34.9064L34.7974 10.5924L28.5034 10.5924V8.33283H37.057L37.0572 7.86187ZM37.0572 7.86187L37.0573 7.54695L37.0572 6.49609L37.0572 7.86187Z"
+        fill="#3B3B70"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M17.1946 5.57152C17.4202 5.46212 17.5144 5.19057 17.405 4.96499C17.2956 4.7394 17.024 4.64522 16.7984 4.75461L12.2811 7.03633C11.9278 6.79799 11.4613 6.74393 11.0455 6.95419C10.6302 7.16424 10.3974 7.57144 10.3795 7.99682L6.34308 10.0357C6.1175 10.1451 6.02331 10.4166 6.1327 10.6422C6.2421 10.8678 6.51365 10.962 6.73923 10.8526L10.6769 8.86365C10.8958 9.12199 11.2101 9.28141 11.5424 9.304L12.6474 11.4925L8.31755 13.6851C8.09196 13.7945 7.99778 14.066 8.10717 14.2916C8.21657 14.5172 8.48812 14.6114 8.7137 14.502L13.0565 12.3028L14.6918 15.5415L10.5438 17.6405C10.3182 17.7499 10.224 18.0215 10.3334 18.2471C10.4428 18.4727 10.7144 18.5668 10.9399 18.4575L15.101 16.3518L16.2296 18.5871C16.3834 18.8911 16.7545 19.0129 17.0585 18.8591C17.3625 18.7053 17.4843 18.3343 17.3305 18.0302L16.6288 16.6428L17.4635 15.1562L20.0815 13.8315C20.2834 14.0015 20.5347 14.1048 20.7972 14.1227L23.9038 20.2878L20.3666 24.0401L19.1729 21.673C19.128 21.5841 19.0624 21.5074 18.9814 21.4494L15.2391 18.7683C14.9622 18.5699 14.5768 18.6335 14.3784 18.9104C14.18 19.1874 14.2437 19.5727 14.5206 19.7711L15.0591 20.157L14.7277 20.6916C14.5542 20.9715 14.6312 21.3383 14.9025 21.5249L16.6715 22.7412C16.8123 22.838 16.987 22.8721 17.1539 22.8353C17.3208 22.7984 17.465 22.694 17.552 22.5469L17.8028 22.1227L18.1397 22.364L19.6592 25.3767L19.6614 25.3811L21.9509 30.0406L20.8677 30.5884C20.5637 30.7422 20.4421 31.1138 20.5959 31.4178L20.5969 31.4197L20.5984 31.4227L20.6025 31.4306L20.6074 31.4399L20.6149 31.4536C20.6249 31.4719 20.6385 31.4961 20.6559 31.5252C20.6905 31.5833 20.7402 31.6617 20.8053 31.7513C20.9338 31.928 21.1312 32.1614 21.4008 32.367C21.6721 32.5738 22.0291 32.7617 22.4679 32.821C22.7397 32.8578 23.0262 32.8429 23.3237 32.7671L23.6414 33.3952C23.7951 33.6992 24.1662 33.821 24.4702 33.6673C24.7742 33.5135 24.896 33.1422 24.7422 32.8382L24.4202 32.2015C24.6329 32.0151 24.7941 31.8016 24.9084 31.57C25.0976 31.1869 25.139 30.7943 25.1224 30.4639C25.1058 30.134 25.0304 29.8432 24.9627 29.6397C24.9283 29.5364 24.8945 29.4516 24.8684 29.3907C24.8554 29.3602 24.8441 29.3354 24.8355 29.3171L24.8246 29.2944L24.8209 29.2867L24.8194 29.2838L24.8183 29.2816C24.6646 28.9776 24.2935 28.8558 23.9895 29.0095L23.5932 29.2099L23.7657 28.2183L27.6895 26.2338L28.0538 26.9539L26.9755 27.4993C26.8295 27.5731 26.7188 27.702 26.6678 27.8574C26.6168 28.0128 26.6299 28.1827 26.7037 28.3287L26.7047 28.3306L26.7062 28.3336L26.7103 28.3415L26.7226 28.3645C26.7327 28.3828 26.7463 28.407 26.7637 28.4361C26.7983 28.4942 26.848 28.5725 26.9131 28.6621C27.0416 28.8389 27.239 29.0723 27.5086 29.2778C27.7799 29.4847 28.1369 29.6725 28.5757 29.7319C28.8476 29.7686 29.134 29.7538 29.4315 29.678L29.7492 30.3061C29.9029 30.6101 30.274 30.7319 30.578 30.5781C30.882 30.4244 31.0038 30.0531 30.85 29.7491L30.528 29.1124C30.7407 28.926 30.9019 28.7125 31.0162 28.4809C31.2054 28.0977 31.2468 27.7052 31.2302 27.3748C31.2136 27.0449 31.1382 26.7541 31.0705 26.5505C31.0361 26.4473 31.0023 26.3625 30.9762 26.3016C30.9632 26.2711 30.9519 26.2463 30.9433 26.228L30.9398 26.2206L30.9324 26.2052L30.9287 26.1976L30.9272 26.1947L30.9261 26.1925C30.7723 25.8885 30.4013 25.7667 30.0972 25.9204L29.1547 26.3971L28.512 25.1265C28.3583 24.8225 27.9872 24.7007 27.6832 24.8545L22.9327 27.2571C22.7588 27.345 22.6367 27.5099 22.6033 27.7018L22.4907 28.3491L20.9552 25.2143L25.0982 20.8193C25.2763 20.6304 25.317 20.3502 25.2001 20.1184L21.8984 13.5664C22.0401 13.344 22.106 13.0797 22.0886 12.8158L26.3965 10.6358C26.6221 10.5264 26.7163 10.2548 26.6069 10.0293C26.4975 9.80367 26.226 9.70948 26.0004 9.81888L21.7057 11.9921C21.3429 11.6427 20.787 11.5269 20.3006 11.7729C19.814 12.019 19.5779 12.5357 19.6446 13.0352L18.2616 13.735C18.3618 13.5561 18.3665 13.3391 18.2742 13.156L17.1999 11.0171C17.3683 10.7529 17.4298 10.4295 17.3714 10.1177L21.4 8.0777C21.6256 7.9683 21.7197 7.69675 21.6103 7.47117C21.5009 7.24558 21.2294 7.15139 21.0038 7.26079L16.891 9.34352C16.5322 9.07346 16.0392 9.00247 15.6022 9.22345C15.1649 9.44465 14.9298 9.88447 14.9352 10.3339L13.7477 10.9353L12.6435 8.74754C12.8222 8.4668 12.8804 8.11934 12.8024 7.79005L17.1946 5.57152ZM16.285 14.7352L17.0247 13.4179L16.0987 11.5732C15.787 11.552 15.4911 11.4102 15.2749 11.1794L14.1567 11.7457L15.7916 14.9849L16.285 14.7352ZM27.2539 28.0498C26.7034 28.3282 26.7037 28.3287 26.7037 28.3287L27.2539 28.0498ZM21.1461 31.1389C20.5956 31.4173 20.5959 31.4178 20.5959 31.4178L21.1461 31.1389ZM22.1488 31.3859C22.1323 31.3733 22.1162 31.3605 22.1005 31.3474L23.884 30.4454C23.8868 30.472 23.8889 30.4989 23.8902 30.5259C23.8995 30.7101 23.8735 30.8794 23.8022 31.0238C23.7352 31.1597 23.6091 31.3129 23.3466 31.4457C23.0394 31.6011 22.8061 31.6218 22.6332 31.5984C22.4546 31.5743 22.2936 31.4963 22.1488 31.3859ZM28.2566 28.2968C28.2401 28.2842 28.224 28.2714 28.2083 28.2583L29.9918 27.3563C29.9946 27.3829 29.9967 27.4098 29.998 27.4368C30.0073 27.621 29.9813 27.7903 29.91 27.9347C29.843 28.0705 29.7169 28.2238 29.4544 28.3566C29.1472 28.5119 28.9139 28.5327 28.741 28.5093C28.5624 28.4851 28.4014 28.4072 28.2566 28.2968Z"
+        fill="#3B3B70"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_2272_4326"
+          x1="38.2884"
+          y1="21.1507"
+          x2="2.58301"
+          y2="21.1507"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_2272_4326"
+          x1="38.2884"
+          y1="21.1507"
+          x2="2.58301"
+          y2="21.1507"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export const GenRD = () => {
+  return (
+    <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M28.4738 3.33634V1.95703H22.5479V3.33634H28.4738Z" fill="url(#paint0_linear_2272_7748)" />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M2.24903 37.4395V35.6727H3.62834V37.4395C3.62834 37.8204 3.93711 38.1292 4.31799 38.1292H37.7315C38.1124 38.1292 38.4212 37.8204 38.4212 37.4395V4.026C38.4212 3.64511 38.1124 3.33634 37.7315 3.33634H28.4738V1.95703H37.7315C38.8742 1.95703 39.8005 2.88334 39.8005 4.026V37.4395C39.8005 38.5822 38.8742 39.5085 37.7315 39.5085H4.31799C3.17533 39.5085 2.24903 38.5822 2.24903 37.4395Z"
+        fill="url(#paint1_linear_2272_7748)"
+      />
+      <path d="M3.62834 25.7328H2.24903V35.6727H3.62834L3.62834 25.7328Z" fill="url(#paint2_linear_2272_7748)" />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M37.7452 34.0985H35.8362L7.75403 34.0985H5.84499L5.84473 8.5H37.7449L37.7452 34.0985ZM7.75403 32.0345L35.8362 32.0345L35.8359 10.5012L7.75377 10.5012L7.75403 32.0345ZM9.98312 15.5174H20.8334V13.5162H9.98312V15.5174ZM27.2754 18.7396L9.98323 18.7396V16.7384H27.2754V18.7396ZM9.98323 21.9629H33.0681V19.9617H9.98323V21.9629ZM33.0681 25.1862H9.98323V23.1851H33.0681V25.1862ZM9.98323 28.4096H33.0681V26.4084H9.98323V28.4096Z"
+        fill="#3B3B70"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M31.6249 10.0545H29.8669L29.8669 6.10173L4.007 6.10172L4.00704 9.288H2.24908L2.24902 4.34375H31.6249V10.0545Z"
+        fill="#3B3B70"
+      />
+      <path d="M2.24926 26.8311H4.00723V25.018L4.00704 9.288H2.24908L2.24926 26.8311Z" fill="#3B3B70" />
+      <path d="M4.00723 25.018V26.8311H6.88939V25.018H4.00723Z" fill="#3B3B70" />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M22.563 3.41401L22.563 5.70403H24.02V1.95703H-0.326172L-0.326113 7.46558H1.13085L1.1308 3.41401L22.563 3.41401Z"
+        fill="#3B3B70"
+      />
+      <path d="M1.131 19.0915V20.5941L3.75838 20.5941V19.0915L1.131 19.0915Z" fill="#3B3B70" />
+      <path d="M-0.325973 20.5941H1.131V19.0915L1.13085 7.46558H-0.326113L-0.325973 20.5941Z" fill="#3B3B70" />
+      <defs>
+        <linearGradient
+          id="paint0_linear_2272_7748"
+          x1="37.9544"
+          y1="20.7328"
+          x2="2.24902"
+          y2="20.7328"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_2272_7748"
+          x1="37.9544"
+          y1="20.7328"
+          x2="2.24902"
+          y2="20.7328"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+        <linearGradient
+          id="paint2_linear_2272_7748"
+          x1="37.9544"
+          y1="20.7328"
+          x2="2.24902"
+          y2="20.7328"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export const GenTU = () => {
+  return (
+    <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M28.7111 4.06486V2.68555H7.36266V4.06486H28.7111Z" fill="url(#paint0_linear_2272_6957)" />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M3.86564 4.75451C3.86564 4.37363 4.17441 4.06486 4.55529 4.06486H7.36266V2.68555H4.55529C3.41264 2.68555 2.48633 3.61185 2.48633 4.75451V9.52063H3.86564V4.75451ZM2.48633 36.4012V38.168C2.48633 39.3107 3.41264 40.237 4.55529 40.237H37.9688C39.1115 40.237 40.0378 39.3107 40.0378 38.168V4.75451C40.0378 3.61185 39.1115 2.68555 37.9688 2.68555H28.7111V4.06486H37.9688C38.3497 4.06486 38.6585 4.37363 38.6585 4.75451V38.168C38.6585 38.5489 38.3497 38.8577 37.9688 38.8577H4.55529C4.17441 38.8577 3.86564 38.5489 3.86564 38.168V36.4012H2.48633Z"
+        fill="url(#paint1_linear_2272_6957)"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M34.1967 23.1517L34.1967 36.7973H32.0649L4.04815 36.7972H1.91631L1.91602 9.52734L34.1964 9.52745L34.1966 17.2289H32.0646L32.0646 11.6593L4.04787 11.6592L4.04815 34.5985L32.0649 34.5986L32.0647 23.1517H34.1967Z"
+        fill="#3B3B70"
+      />
+      <path fillRule="evenodd" clipRule="evenodd" d="M18.6739 17.4276H5.83105V15.168H18.6739V17.4276Z" fill="#3B3B70" />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M18.6739 21.0682L5.83105 21.0682V18.8086H18.6739V21.0682Z"
+        fill="#3B3B70"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M18.6739 24.7069H5.83105V22.4473H18.6739V24.7069Z"
+        fill="#3B3B70"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M23.0724 28.3475H5.83105V26.0879H23.0724V28.3475Z"
+        fill="#3B3B70"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M23.0724 31.9862H5.83105V29.7266H23.0724V31.9862Z"
+        fill="#3B3B70"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M22.0039 20.0312L26.647 15.3881L28.0273 16.7684L25.7404 19.0553L37.5407 19.0553V21.0072L25.7404 21.0072L28.0273 23.2941L26.647 24.6744L22.0039 20.0312Z"
+        fill="#3B3B70"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_2272_6957"
+          x1="38.1917"
+          y1="21.4613"
+          x2="2.48633"
+          y2="21.4613"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_2272_6957"
+          x1="38.1917"
+          y1="21.4613"
+          x2="2.48633"
+          y2="21.4613"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export const GenTZ = () => {
+  return (
+    <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M28.8078 3.75431V2.375H7.45934V3.75431H28.8078Z" fill="url(#paint0_linear_2272_2886)" />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M3.96232 4.44397C3.96232 4.06308 4.27109 3.75431 4.65197 3.75431H7.45934V2.375H4.65197C3.50932 2.375 2.58301 3.30131 2.58301 4.44397V9.21008H3.96232V4.44397ZM2.58301 36.0907V37.8575C2.58301 39.0002 3.50931 39.9265 4.65197 39.9265H38.0655C39.2082 39.9265 40.1345 39.0002 40.1345 37.8575V4.44397C40.1345 3.30131 39.2082 2.375 38.0655 2.375H28.8078V3.75431H38.0655C38.4464 3.75431 38.7552 4.06308 38.7552 4.44397V37.8575C38.7552 38.2384 38.4464 38.5471 38.0655 38.5471H4.65197C4.27109 38.5471 3.96232 38.2384 3.96232 37.8575V36.0907H2.58301Z"
+        fill="url(#paint1_linear_2272_2886)"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M37.0572 8.33398L37.0575 35.6885H34.919L3.462 35.6885H1.32353L1.32324 8.33398H37.0572ZM34.9187 10.4725L3.46171 10.4725L3.462 33.483L34.919 33.483L34.9187 10.4725ZM5.9593 15.8314H18.1136V13.6929H5.9593V15.8314ZM25.3297 19.2767L5.95938 19.2767V17.1382H25.3297V19.2767ZM5.95938 22.7207H31.8186V20.5823H5.95938V22.7207ZM31.8186 26.1655H5.95938V24.027H31.8186V26.1655ZM5.95938 29.6102H31.8186V27.4717H5.95938V29.6102Z"
+        fill="#3B3B70"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_2272_2886"
+          x1="38.2884"
+          y1="21.1507"
+          x2="2.58301"
+          y2="21.1507"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_2272_2886"
+          x1="38.2884"
+          y1="21.1507"
+          x2="2.58301"
+          y2="21.1507"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1FA2FF" />
+          <stop offset="0.5" stopColor="#12D8FA" />
+          <stop offset="1" stopColor="#A6FFCB" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export const Download = () => {
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M4.72591 11.0716L12.0579 18.4036M19.3899 11.0716L12.0579 18.4036M12.0579 18.4036V1.99873"
+        stroke="#232247"
+        stroke-width="1.5"
+      />
+      <path d="M3.13086 22.2988H20.5309" stroke="#232247" stroke-width="1.5" />
+    </svg>
+  );
+};
+
+export const Command1 = (...props: any) => {
+  return (
+    <svg width="40" height="35" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M29.5158 8.51758H22.0849V7.51758H29.5158C30.3442 7.51758 31.0158 8.18915 31.0158 9.01758V33.2424C31.0158 34.0708 30.3442 34.7424 29.5158 34.7424H5.29102C4.46259 34.7424 3.79102 34.0708 3.79102 33.2424V8.01758H4.79102V33.2424C4.79102 33.5185 5.01487 33.7424 5.29102 33.7424H29.5158C29.792 33.7424 30.0158 33.5185 30.0158 33.2424V9.01758C30.0158 8.74144 29.792 8.51758 29.5158 8.51758Z"
+        fill="url(#paint0_linear_531_23)"
+      />
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M15.5311 0.523438L30.2447 6.74476L26.0809 8.70356V16.5787L28.4442 20.3612H22.3771L24.5809 16.5906V9.40921L23.0065 10.1498V16.0224L22.9469 16.1629L22.2565 15.8698C22.9469 16.1629 22.9466 16.1635 22.9463 16.1641L22.9458 16.1655L22.9446 16.1683L22.9418 16.1747L22.9346 16.1907C22.929 16.2028 22.922 16.2177 22.9134 16.2351C22.8962 16.2699 22.8725 16.3151 22.8415 16.369C22.7796 16.477 22.6882 16.6201 22.5597 16.7863C22.3021 17.1196 21.8979 17.5423 21.2891 17.9584C20.0659 18.7944 18.0649 19.5714 14.8647 19.6003C12.0081 19.6261 10.1019 18.8368 8.89368 17.9934C8.2939 17.5748 7.87602 17.1498 7.60353 16.8207C7.46734 16.6562 7.3674 16.5155 7.29904 16.4114C7.26485 16.3593 7.23853 16.3162 7.21948 16.2838C7.20996 16.2676 7.20225 16.2541 7.19628 16.2434L7.18863 16.2295L7.18576 16.2241L7.18456 16.2219L7.18403 16.2209C7.18377 16.2204 7.18353 16.2199 7.84677 15.8698L7.18353 16.2199L7.09677 16.0556V9.84673L0.246094 6.74453L15.5311 0.523438ZM8.59677 10.526V15.6526C8.63655 15.7092 8.69015 15.781 8.75894 15.8641C8.95546 16.1015 9.27567 16.4308 9.75221 16.7634C10.6966 17.4226 12.296 18.1235 14.8511 18.1004C17.8075 18.0736 19.5059 17.3603 20.4428 16.72C20.914 16.3979 21.2052 16.0859 21.3729 15.869C21.4314 15.7933 21.4752 15.7287 21.5065 15.6789V10.8555L15.5316 13.6663L8.59677 10.526ZM25.1977 7.46131L16.864 6.66133C16.5676 5.97467 15.9229 5.50476 15.1287 5.44335C14.6558 5.40679 14.1508 5.51536 13.74 5.77841C13.3161 6.04982 12.9627 6.51347 12.9465 7.13976C12.9318 7.70994 13.1961 8.16706 13.5598 8.47188C13.9088 8.76454 14.349 8.92237 14.7695 8.9723C15.5522 9.06526 16.2638 8.75022 16.6992 8.15241L22.5374 8.71283L15.5196 12.0142L4.04461 6.818L15.5201 2.14738L26.5657 6.81777L25.1977 7.46131ZM15.4904 7.26437C15.4118 7.07384 15.2438 6.95672 15.013 6.93889C14.8313 6.92483 14.6575 6.9721 14.5489 7.04163C14.4534 7.1028 14.4468 7.14847 14.446 7.17853C14.4448 7.22449 14.4552 7.26523 14.5234 7.32239C14.6061 7.39172 14.7547 7.46002 14.9463 7.48277C15.1822 7.51077 15.3691 7.43455 15.4904 7.26437ZM25.3523 18.2434L24.9912 18.8612H25.7383L25.3523 18.2434Z"
+        fill="white"
+      />
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M18.0046 18.652C18.6721 18.0796 19.8323 17.6543 21.8277 17.6543C22.668 17.6543 23.6911 17.8245 24.4711 17.9832C24.8682 18.0639 25.2158 18.1446 25.4645 18.2051C25.589 18.2354 25.689 18.2608 25.7585 18.2787L25.8392 18.2997L25.8609 18.3055L25.8669 18.3071L25.8687 18.3076C25.8687 18.3076 25.8695 18.3078 25.674 19.0319L25.8687 18.3076L26.2871 18.4206L29.5739 30.7278L28.2047 30.2067L28.2035 30.2063L28.198 30.2042L28.1742 30.1953C28.1528 30.1873 28.1203 30.1753 28.0778 30.1599C27.9928 30.129 27.8679 30.0844 27.7111 30.0306C27.397 29.923 26.9571 29.7793 26.455 29.6355C25.4315 29.3425 24.2209 29.0705 23.2931 29.0665C22.3474 29.0624 21.1123 29.3341 20.0678 29.6294C19.5553 29.7743 19.1063 29.9196 18.7857 30.0287C18.6256 30.0831 18.4981 30.1283 18.4113 30.1597C18.3679 30.1753 18.3348 30.1875 18.3128 30.1956L18.2885 30.2047L18.2819 30.2072L18.0164 30.3076L17.7511 30.2072L17.7443 30.2047L17.72 30.1956C17.6981 30.1875 17.6649 30.1753 17.6215 30.1597C17.5348 30.1283 17.4072 30.0831 17.2471 30.0287C16.9265 29.9196 16.4775 29.7743 15.965 29.6294C14.9205 29.3341 13.6855 29.0624 12.7398 29.0665C11.8119 29.0705 10.6013 29.3425 9.57787 29.6355C9.07573 29.7793 8.63584 29.923 8.32178 30.0306C8.16496 30.0844 8.04005 30.129 7.95505 30.1599C7.91256 30.1753 7.88008 30.1873 7.85862 30.1953L7.83482 30.2042L7.82936 30.2063L7.82832 30.2067L6.55957 30.6895L9.01764 18.4175L9.48021 18.3036L9.48441 18.3026L9.49472 18.3001L9.53302 18.2909C9.56618 18.2829 9.61429 18.2715 9.67551 18.2573C9.7979 18.2289 9.97295 18.1893 10.1858 18.1438C10.6105 18.053 11.1902 17.9379 11.8045 17.8421L12.0354 19.3243C11.4574 19.4143 10.9068 19.5235 10.4994 19.6106C10.4281 19.6259 10.3614 19.6404 10.2998 19.654L8.55258 28.3769C8.74262 28.3175 8.94823 28.2555 9.16502 28.1935C10.2106 27.8941 11.5875 27.5715 12.7333 27.5665C13.9011 27.5615 15.306 27.8843 16.3731 28.186C16.7007 28.2786 17.0034 28.3712 17.2664 28.4555V20.2277C17.2224 20.1561 17.1589 20.0637 17.076 19.9689C16.8884 19.7542 16.6398 19.5684 16.3235 19.5158L16.5696 18.0361C17.1609 18.1345 17.6133 18.4171 17.9387 18.7105C17.96 18.6909 17.982 18.6714 18.0046 18.652ZM18.7664 20.0802V28.4555C19.0295 28.3712 19.3321 28.2786 19.6598 28.186C20.7268 27.8843 22.1317 27.5615 23.2996 27.5665C24.4453 27.5715 25.8222 27.8941 26.8678 28.1935C27.0491 28.2454 27.2226 28.2972 27.3857 28.3475L25.0632 19.6513C24.8324 19.5956 24.5223 19.5243 24.1721 19.4531C23.4095 19.2979 22.5094 19.1543 21.8277 19.1543C20.0119 19.1543 19.2664 19.546 18.9811 19.7907C18.841 19.9108 18.7921 20.011 18.775 20.0548C18.7709 20.0654 18.7682 20.074 18.7664 20.0802Z"
+        fill="white"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_531_23"
+          x1="29.6774"
+          y1="21.13"
+          x2="3.79102"
+          y2="21.13"
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stop-color="#1FA2FF" />
           <stop offset="0.5" stop-color="#12D8FA" />
           <stop offset="1" stop-color="#A6FFCB" />
@@ -339,15 +781,184 @@ export const TTMaps = () => {
   );
 };
 
-export const DownCollapseArrow = () => {
-  return <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M1 1.5L6 6.5L11 1.5" stroke="#3B3B70" stroke-width="2" stroke-linejoin="round"/>
-  </svg>  
-}
+export const Command2 = () => {
+  return (
+    <svg width="40" height="35" viewBox="0 0 29 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M3.14551 8.51758C2.86937 8.51758 2.64551 8.74144 2.64551 9.01758V33.2424C2.64551 33.5185 2.86937 33.7424 3.14551 33.7424H27.3703C27.6465 33.7424 27.8703 33.5185 27.8703 33.2424V9.01758C27.8703 8.74144 27.6465 8.51758 27.3703 8.51758H20.7602V7.51758H27.3703C28.1987 7.51758 28.8703 8.18915 28.8703 9.01758V33.2424C28.8703 34.0708 28.1987 34.7424 27.3703 34.7424H3.14551C2.31708 34.7424 1.64551 34.0708 1.64551 33.2424V9.01758C1.64551 8.18915 2.31708 7.51758 3.14551 7.51758H5.18085V8.51758H3.14551Z"
+        fill="url(#paint0_linear_531_22)"
+      />
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M24.2033 6.00406L13.4962 16.7112L9.78906 13.0041L11.2033 11.5898L13.4962 13.8827L22.7891 4.58984L24.2033 6.00406Z"
+        fill="white"
+      />
+      <path d="M20.5 17.793H22V32.793H5V2.79297L20.5 2.79368V4.29297L6.5 4.29297V31.293H20.5V17.793Z" fill="white" />
+      <defs>
+        <linearGradient
+          id="paint0_linear_531_22"
+          x1="27.5319"
+          y1="21.13"
+          x2="1.64551"
+          y2="21.13"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#1FA2FF" />
+          <stop offset="0.5" stop-color="#12D8FA" />
+          <stop offset="1" stop-color="#A6FFCB" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
 
-export const UpCollapseArrow = () => {
-  return <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M11 6L6 1L1 6" stroke="#393959" stroke-width="2" stroke-linejoin="round"/>
-  </svg>
-  
-}
+export const Command3 = () => {
+  return (
+    <svg width="40" height="35" viewBox="0 0 30 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M27.5158 8.51758H17.3299V7.51758H27.5158C28.3443 7.51758 29.0158 8.18915 29.0158 9.01758V33.2424C29.0158 34.0708 28.3442 34.7424 27.5158 34.7424H3.29102C2.46259 34.7424 1.79102 34.0708 1.79102 33.2424V17.9947H2.79102V33.2424C2.79102 33.5185 3.01487 33.7424 3.29102 33.7424H27.5158C27.792 33.7424 28.0158 33.5185 28.0158 33.2424V9.01758C28.0158 8.74144 27.792 8.51758 27.5158 8.51758Z"
+        fill="url(#paint0_linear_531_24)"
+      />
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M8.21052 18.5182H18.1077V4.9375H0.716797V18.5182H4.11942V21.399L8.21052 18.5182ZM5.61942 18.5082L7.73538 17.0182H16.6077V6.4375H2.2168V17.0182H5.61942V18.5082Z"
+        fill="white"
+      />
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M29.3242 11.0723H18.0151V12.5723H27.8242V24.6973H24.4216V26.8827L21.3181 24.6973H11.9333V18.5194H10.4333V26.1973H20.8429L25.9216 29.7735V26.1973H29.3242V11.0723ZM25.8451 13.483H20.4214V14.983H25.8451V13.483ZM25.8451 17.3878H20.4214V18.8878H25.8451V17.3878ZM25.8451 21.0814H13.7388V22.5814H25.8451V21.0814Z"
+        fill="white"
+      />
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M9.4123 9.22852C8.67977 9.22852 8.08594 9.82235 8.08594 10.5549H7.08594C7.08594 9.27006 8.12748 8.22852 9.4123 8.22852C10.6971 8.22852 11.7387 9.27006 11.7387 10.5549C11.7387 11.668 10.9568 12.5986 9.9123 12.8274V14.2338H8.9123V11.8812H9.4123C10.1448 11.8812 10.7387 11.2874 10.7387 10.5549C10.7387 9.82235 10.1448 9.22852 9.4123 9.22852ZM9.9123 14.7985V15.583H8.9123V14.7985H9.9123Z"
+        fill="white"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_531_24"
+          x1="27.6774"
+          y1="21.13"
+          x2="1.79102"
+          y2="21.13"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#1FA2FF" />
+          <stop offset="0.5" stop-color="#12D8FA" />
+          <stop offset="1" stop-color="#A6FFCB" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export const Command4 = (...props: any) => {
+  return (
+    <svg width="60" height="35" viewBox="0 0 29 35" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M27.3703 8.51758H25.0162V7.51758H27.3703C28.1987 7.51758 28.8703 8.18915 28.8703 9.01758V33.2424C28.8703 34.0708 28.1987 34.7424 27.3703 34.7424H3.14551C2.31708 34.7424 1.64551 34.0708 1.64551 33.2424V20.5206H2.64551V33.2424C2.64551 33.5185 2.86937 33.7424 3.14551 33.7424H27.3703C27.6465 33.7424 27.8703 33.5185 27.8703 33.2424V9.01758C27.8703 8.74144 27.6465 8.51758 27.3703 8.51758Z"
+        fill="url(#paint0_linear_531_54)"
+      />
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M1.39551 6.15039H25.3671V17.3309H23.8671V7.65039H2.89551V17.8395H17.8768V19.3395H2.89551V19.8701H17.8768V21.3701H14.1313V24.0156H16.6609V25.5156H10.0898V24.0156H12.6313V21.3701H1.39551V6.15039ZM22.1081 13.5245H17.586V12.0245H22.1081V13.5245ZM20.5949 15.5199H17.586V14.0199H20.5949V15.5199ZM22.1081 15.5199H21.1311V14.0199H22.1081V15.5199Z"
+        fill="white"
+      />
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M16.9717 16.8672L27.0213 16.869V32.6642L16.9717 32.6624V16.8672ZM18.4717 18.3675V31.1627L25.5213 31.1639V18.3687L18.4717 18.3675ZM20.9505 30.3137V29.3415H22.4505V30.3137H20.9505Z"
+        fill="white"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_531_54"
+          x1="27.5319"
+          y1="21.13"
+          x2="1.64551"
+          y2="21.13"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#1FA2FF" />
+          <stop offset="0.5" stop-color="#12D8FA" />
+          <stop offset="1" stop-color="#A6FFCB" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export const IconRemove = (...props: any) => {
+  return (
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path d="M12 4L4 12" stroke="#393959" stroke-linejoin="round" />
+      <path d="M4 4L12 12" stroke="#393959" stroke-linejoin="round" />
+    </svg>
+  );
+};
+
+export const IconMenuDropDown = () => {
+  return (
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M5.68091 6.76172L9.22257 10.3034L12.7642 6.76172"
+        stroke="white"
+        stroke-width="2"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const IconMenuDropDownRight = () => {
+  return (
+    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M6.72949 4.95898L10.2712 8.50065L6.72949 12.0423"
+        stroke="white"
+        stroke-width="2"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const IconUploadFile1 = () => {
+  return (
+    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M10.3711 15.8741H4.77356C4.77356 15.8741 1.87109 15.8741 1.87109 12.7785C1.87109 9.68276 4.77356 9.48745 4.77356 9.48745C4.77356 9.48745 3.99978 4.45545 8.25768 3.48829C12.5156 2.52112 14.8374 6.19733 14.8374 6.19733C14.8374 6.19733 16.774 5.08014 18.7088 6.19733C20.6435 7.31452 20.257 9.48745 20.257 9.48745C20.257 9.48745 23.5472 9.68276 23.5472 12.7785C23.5472 15.8741 20.257 15.8741 20.257 15.8741H14.8711"
+        stroke="#9191A3"
+        stroke-width="1.5"
+      />
+      <path
+        d="M8.79689 13.4316L12.9024 9.3261M12.9024 9.3261L17.0079 13.4316M12.9024 9.3261L12.9024 20.8262"
+        stroke="#9191A3"
+        stroke-width="1.5"
+      />
+    </svg>
+  );
+};
+
+export const IconUploadFile2 = () => {
+  return (
+    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M4.72436 13.6142C4.72436 13.6142 11.8591 6.36374 15.2244 3.10177C16.4007 1.96159 19.2137 2.04081 20.6983 3.59073C22.0808 5.03412 22.2367 7.76202 21.0449 8.96351C13.8814 16.1856 13.9058 16.1821 8.27732 21.5C7.24527 22.4751 5.32965 22.0047 4.37773 20.9512C3.47497 19.9521 3.27951 18.2042 4.2333 17.2538C9.21628 12.2881 9.21628 12.2854 15.2244 6.36378C15.662 5.93244 17.0025 5.97388 17.6364 6.68155C18.2325 7.34702 18.2106 8.54768 17.7993 8.96351C14.2278 12.5743 9.21629 17.5426 9.21629 17.5426"
+        stroke="#9191A3"
+        stroke-width="1.5"
+      />
+    </svg>
+  );
+};

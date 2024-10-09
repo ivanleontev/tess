@@ -1,0 +1,55 @@
+.wrapper {
+  padding: 0 64px;
+  background-image: url('/assets/Right24.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.genproektirovanieLeftContent {
+  display: flex;
+  justify-content: center;
+}
+
+.genproektirovanieLeftContentTitle {
+  color: #393959;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.genproektirovanieLeftContentText {
+  font-size: 16px;
+  color: #232247;
+  margin-bottom: 12px;
+}
+
+.TitleStep {
+  color: #5651d0;
+  font-size: 12px;
+  font-weight: 600;
+}
+.descriptionStep {
+  color: #232247;
+  font-size: 14px;
+}
+
+.HeadingCustomPanel {
+  font-size: 24px;
+  color: #393959;
+  margin-right: 95px;
+}
+
+.HeadingCustomPanelItem {
+  font-size: 16px;
+  color: #272e49;
+  font-weight: normal;
+}
+.TextCustom {
+  font-weight: normal;
+  color: #232247;
+  font-size: 18px;
+  max-width: 640px;
+}
+.tabsWrapper {
+  background-image: url('/assets/Right24.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
